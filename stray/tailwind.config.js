@@ -13,8 +13,8 @@ export default {
         dmsans: [' DM Sans, sans-serif'],
       },
       colors:{
-        'secondary': '#EEEEEE',
-        "pale-blue": "#F5F6FF",
+        'secondary': '#DDDDDD',
+        "mtext": "#FFC819",
         'purple': '#3f3cbb',
         'midnight': '#121063'
       }
