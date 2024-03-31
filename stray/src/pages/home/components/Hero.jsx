@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section
       className="w-full padding-x
-                bg-cover h-[90vh]
+                bg-cover h-[90vh] mb-4
                 lg:bg-hero bg-heroSscreen
                 flex flex-col justify-end"
     >
