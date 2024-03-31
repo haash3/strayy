@@ -12,7 +12,7 @@ export const Nav = () => {
       <Link
         className="font-poppins font-bold
                    text-4xl italic"
-        to="/home"
+        to="/"
       >
         stray.
       </Link>

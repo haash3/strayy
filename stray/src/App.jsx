@@ -3,7 +3,11 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Nav } from './components/Nav';
 import { MarqueeFeature } from './components/MarqueeFeature';
-
+import {Home} from './pages/home/Home'
+import {New} from './pages/new/New'
+import {Shop} from './pages/shop/Shop'
+import {Cart} from './pages/cart/Cart'
+import {Help} from './pages/help/Help'
 // Main-code
 function App() {
   return (
@@ -12,12 +16,11 @@ function App() {
         <MarqueeFeature />
         <Nav />
         <Routes>
-            <Route path="/"/>
-            <Route path="/men"/>
-            <Route path="/women"/>
-            <Route path="/new-arrivals"/>
-            <Route path="/help"/>
-            <Route path="/cart"/>
+            <Route path="/" element={<Home />}/>
+            <Route path="/shop"element={<Shop />} />
+            <Route path="/new"element={<New />}/>
+            <Route path="/help"element={<Help />}/>
+            <Route path="/cart"element={<Cart />}/>
         </Routes>
       </Router>
     </>

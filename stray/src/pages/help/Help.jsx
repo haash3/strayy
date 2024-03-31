@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Help = () => {
+export const Help = () => {
   return (
-    <div>help</div>
+    <div>Displaying Help For You</div>
   )
 }
-
-export default Help
