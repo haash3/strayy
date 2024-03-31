@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import './app-scrollbar.css'
 import { Nav } from './components/Nav';
 import { MarqueeFeature } from './components/MarqueeFeature';
 import {Home} from './pages/home/Home'
