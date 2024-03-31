@@ -33,6 +33,10 @@ export default {
           },
         },
       },
+      backgroundImage: {
+        'hero' : "url('assets/images/hero.png')",
+        'heroSscreen' : "url('assets/images/hero-sscreen.jpg')"
+      }
   },
 
   },

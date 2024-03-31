@@ -1,5 +1,3 @@
-//router goes here routing between pages should be here
-//not just the homepage every page
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { Nav } from './components/Nav';
 import { MarqueeFeature } from './components/MarqueeFeature';
@@ -8,6 +6,8 @@ import {New} from './pages/new/New'
 import {Shop} from './pages/shop/Shop'
 import {Cart} from './pages/cart/Cart'
 import {Help} from './pages/help/Help'
+
+
 // Main-code
 function App() {
   return (
