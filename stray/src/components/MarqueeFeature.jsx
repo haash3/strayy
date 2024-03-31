@@ -2,8 +2,14 @@ import Marquee from "react-fast-marquee";
 
 export const MarqueeFeature = () => (
     <Marquee 
-    className="bg-secondary text-black h-10 font-semibold tracking-widest uppercase" autoFill='true'
-     pauseOnHover='true' speed={85} direction="left"
+    className="bg-secondary text-black 
+              h-10 font-semibold tracking-widest
+              uppercase" 
+    autoFill='true'
+    pauseOnHover='true' 
+    speed={65} 
+    direction="left"
+    fade='true'
     >
     
      <span className="text-yellow-600 mx-2">Flash Sale!</span> 
