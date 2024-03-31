@@ -5,14 +5,15 @@ import { Asterisk } from "@phosphor-icons/react";
 
 export const MarqueeFeature = () => (
     <Marquee 
-    className="bg-secondary text-black 
+    className="bg-black text-white
               h-10 font-semibold 
               tracking-widest uppercase" 
+    autoFill={true}
     gradient='true'
-    gradientColor="white"
-    gradientWidth={25}
+    gradientColor="black"
+    gradientWidth={45}
     pauseOnHover={false} 
-    speed='70' 
+    speed='75' 
     direction="left"
     
     >

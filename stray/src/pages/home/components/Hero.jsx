@@ -11,12 +11,6 @@ export const Hero = () => {
     >
       <div className="leading-tight pb-8">
         <p
-          className="font-robo tracking-widest
-                    text-white lg:text-[18px] text-[16px]"
-        >
-          Feel the Unreal
-        </p>
-        <p
           className="lg:text-[58px] text-[48px] font-bold font-robo
                     uppercase text-white"
         >
@@ -26,7 +20,7 @@ export const Hero = () => {
           className="tracking-widest text-white 
                     font-robo lg:text-[20px] text-[18px]"
         >
-          The next generation of Air technology is here.
+          Walk to your Own Beat.
         </p>
         <button
           className="bg-white text-black
