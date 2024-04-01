@@ -8,6 +8,7 @@ import {Shop} from './pages/shop/Shop'
 import {Cart} from './pages/cart/Cart'
 import {Help} from './pages/help/Help'
 import { Footer } from "./components/Footer";
+import { Copyright } from "./components/Copyright";
 
 
 // Main-code
@@ -25,6 +26,7 @@ function App() {
             <Route path="/cart"element={<Cart />}/>
         </Routes>
         <Footer />
+        <Copyright />
       </Router>
     </>
   );
