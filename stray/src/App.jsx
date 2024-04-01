@@ -7,6 +7,7 @@ import {New} from './pages/new/New'
 import {Shop} from './pages/shop/Shop'
 import {Cart} from './pages/cart/Cart'
 import {Help} from './pages/help/Help'
+import { Footer } from "./components/Footer";
 
 
 // Main-code
@@ -23,6 +24,7 @@ function App() {
             <Route path="/help"element={<Help />}/>
             <Route path="/cart"element={<Cart />}/>
         </Routes>
+        <Footer />
       </Router>
     </>
   );
