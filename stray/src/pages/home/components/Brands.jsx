@@ -3,7 +3,7 @@ import { ourBrands } from '../index'
 
 export const Brands = () => {
   return (
-    <section className="padding-x my-16 bg-black/5 padding-y">
+    <section className="padding-x  bg-black/5 padding-y">
         <div
         className="font-poppins text-[32px]">
         Our Top Brands
