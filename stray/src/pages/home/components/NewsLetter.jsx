@@ -5,14 +5,14 @@ export const NewsLetter = () => {
   return (
     <section
       className="text-center 
-                justify-center items-center gap-8 text-white
-                padding-x w-full pt-10 pb-10 bg-black/85 "
+                justify-center items-center gap-8 text-[#343330]
+                padding-x w-full pt-10 pb-10 bg-[#EEEAE3] "
     >
       <div className="font-poppins">
         <h1 className="font-dmsans text-[32px] font-bold pt-4 pb-2 flex justify-center items-center gap-2">
           Newsletter <Envelope size={42} />
         </h1>
-        <p className="text-lg pb-4 text-white/50">
+        <p className="text-lg pb-4 text-[#343330de]">
           Unlock early access and enjoy discounted rates with our subscription
         </p>
       </div>

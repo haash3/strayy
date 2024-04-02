@@ -10,7 +10,7 @@ export const Nav = () => {
                justify-between padding-x py-2"
     >
       <Link
-        className="font-poppins font-bold
+        className="font-poppins font-extrabold
                    text-4xl italic"
         to="/"
       >
@@ -21,9 +21,8 @@ export const Nav = () => {
                   font-robo uppercase
                   tracking-tight text-lg items-center"
       >
-        <Link to="/shop">Shop</Link>
         <Link to="/new" className="new-arrivals">New</Link>
-        <Link to="/help">Help</Link>
+        <Link to="/shop">Shop</Link>
         <Link to="/cart" className="flex gap-1">Cart<ShoppingBag size={28} /></Link>
       </div>
     </nav>

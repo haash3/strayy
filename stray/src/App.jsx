@@ -6,7 +6,6 @@ import {Home} from './pages/home/Home'
 import {New} from './pages/new/New'
 import {Shop} from './pages/shop/Shop'
 import {Cart} from './pages/cart/Cart'
-import {Help} from './pages/help/Help'
 import { Footer } from "./components/Footer";
 import { Copyright } from "./components/Copyright";
 
@@ -22,7 +21,6 @@ function App() {
             <Route path="/" element={<Home />}/>
             <Route path="/shop"element={<Shop />} />
             <Route path="/new"element={<New />}/>
-            <Route path="/help"element={<Help />}/>
             <Route path="/cart"element={<Cart />}/>
         </Routes>
         <Footer />
