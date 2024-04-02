@@ -35,7 +35,9 @@ export default {
       },
       backgroundImage: {
         'hero' : "url('assets/images/hero.png')",
-        'heroSscreen' : "url('assets/images/hero-sscreen.jpg')"
+        'heroSscreen' : "url('assets/images/hero-sscreen.jpg')",
+        'banner1' : "url('assets/images/banner1.png')",
+        'banner1Ss' : "url('assets/images/banner1Ss.jpeg')",
       }
   },
 

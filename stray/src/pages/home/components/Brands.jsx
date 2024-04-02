@@ -10,7 +10,7 @@ export const Brands = () => {
       </div>
       <div className="mt-10 grid
                         sm:grid-cols-3  grid-cols-1
-                         sm:gap-20 gap-10 font-extrabold">
+                         sm:gap-20 gap-10 font-extrabold pb-10">
           {ourBrands.map((brand) => (
             <div className="h-20" key={brand.name}>
               <div className="text-[40px] zoom-out-text tracking-wide
