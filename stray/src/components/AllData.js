@@ -46,6 +46,51 @@ export const ourBrands = [
 
 export const items = [
     {
+        id:1,
         img: Img1,
-    }
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:2,
+        img: Img2,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:3,
+        img: Img3,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:4,
+        img: Img4,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:5,
+        img: Img5,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:6,
+        img: Img6,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:7,
+        img: Img7,
+        name: "Shoes",
+        price: 5000,
+    },
+    {
+        id:8,
+        img: Img8,
+        name: "Shoes",
+        price: 5000,
+    },
 ]

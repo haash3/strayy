@@ -60,8 +60,15 @@
       font-weight: normal;
       font-style: normal;
     }
-    .space-letters{
-      letter-spacing: 3rem;
+    .row-container{
+      display: flex;
+      gap: 2rem;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      scroll-behavior: smooth;
+      position: relative;
+      padding: 1rem .6rem;
     }
    
   } 
