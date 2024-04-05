@@ -5,8 +5,8 @@ export const NewsLetter = () => {
   return (
     <section
       className="text-center 
-                justify-center items-center gap-8 text-[#343330]
-                padding-x w-full pt-10 pb-10 bg-[#EEEAE3] "
+                justify-center items-center gap-8 text-[#000000]
+                padding-x w-full pt-10 pb-10 bg-[#F9FAFD] "
     >
       <div className="font-poppins">
         <h1 className="font-dmsans text-[32px] font-bold pt-4 pb-2 flex justify-center items-center gap-2">

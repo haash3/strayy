@@ -11,7 +11,8 @@ export default {
         opensans: ['OpenSans', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         dmsans: [' DM Sans, sans-serif'],
-        robo: ['Roboto Condensed', 'sans-serif']
+        robo: ['Roboto Condensed', 'sans-serif'],
+        alphaget: ['Alphaget']
       },
       colors:{
         'secondary': '#DDDDDD',

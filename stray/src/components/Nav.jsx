@@ -10,7 +10,7 @@ export const Nav = () => {
                justify-between padding-x py-2"
     >
       <Link
-        className="font-poppins font-extrabold
+        className="font-poppins font-bold 
                    text-4xl italic"
         to="/"
       >

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ourBrands } from '../index'
+import { ourBrands } from '../../components/AllData'
 
 export const Brands = () => {
   return (

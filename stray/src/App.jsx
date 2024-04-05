@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './app-scrollbar.css'
 import { Nav } from './components/Nav';
 import { MarqueeFeature } from './components/MarqueeFeature';
-import {Home} from './pages/home/Home'
-import {New} from './pages/new/New'
-import {Shop} from './pages/shop/Shop'
-import {Cart} from './pages/cart/Cart'
+import {Home} from './pages/Home'
+import {New} from './pages/New'
+import {Shop} from './pages/Shop'
+import {Cart} from './pages/Cart'
 import { Footer } from "./components/Footer";
 import { Copyright } from "./components/Copyright";
 

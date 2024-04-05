@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../../components/Button";
+import { Button } from "../../components/Button";
 
 export const Banner1 = () => {
   return (
@@ -27,7 +27,7 @@ export const Banner1 = () => {
         <p
           className="tracking-widest text-white 
                     font-robo lg:text-[18px] text-[18px]
-                    bg-black py-1 px-2 w-max"
+                     py-1 px-2 w-max bg-black rounded-sm"
         >
           Lightweight, flexible, trendy - for athletes & adventurers.
         </p>
