@@ -6,7 +6,7 @@ export const Featured = () => {
   return (
     <section className="padding-x padding-y">
       <div
-        className="font-poppins 
+        className="font-poppins
                     my-6 text-[32px]"
       >
         Featured

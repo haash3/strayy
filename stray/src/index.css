@@ -60,5 +60,8 @@
       font-weight: normal;
       font-style: normal;
     }
+    .space-letters{
+      letter-spacing: 3rem;
+    }
    
   } 
