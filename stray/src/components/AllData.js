@@ -44,53 +44,61 @@ export const ourBrands = [
     }
 ]
 
-export const items = [
+export const newItems = [
     {
         id:1,
         img: Img1,
-        name: "Shoes",
-        price: 5000,
+        name: "Jordan Stadium 90",
+        price: 5500,
+        category: "Women",
     },
     {
         id:2,
         img: Img2,
-        name: "Shoes",
-        price: 5000,
+        name: "Air Jordan 1 Low",
+        category: "Men",
+        price: 2500,
     },
     {
         id:3,
         img: Img3,
-        name: "Shoes",
-        price: 5000,
+        name: "Air Jordan 1 Mid SE",
+        price: 4500,
+        category: "Women",
     },
     {
         id:4,
         img: Img4,
-        name: "Shoes",
+        name: "Air Jordan 1 Low SE",
         price: 5000,
+        category: "Men",
     },
     {
         id:5,
         img: Img5,
-        name: "Shoes",
-        price: 5000,
+        name: "Tatum 2 Vortex PF",
+        price: 3000,
+        category: "Men",
     },
     {
         id:6,
         img: Img6,
-        name: "Shoes",
-        price: 5000,
+        name: "Air Max DN",
+        price: 2000,
+        category: "Women",
     },
     {
         id:7,
         img: Img7,
-        name: "Shoes",
-        price: 5000,
+        name: "Nike Dunk Low Retro",
+        price: 4000,
+        category: "Men",
     },
     {
         id:8,
         img: Img8,
-        name: "Shoes",
-        price: 5000,
+        name: "Nike P-6000",
+        price: 15000,
+        category: "Women",
     },
 ]
