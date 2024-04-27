@@ -1,6 +1,6 @@
 import React from "react";
 // import { useState } from "react";
-import { newItems } from "../components/AllData";
+// import { newItems } from "../components/AllData";
 // import { Link } from "react-router-dom";
 
 export const Slider = () => {
@@ -9,7 +9,7 @@ export const Slider = () => {
   return (
     <>
     
-   
+{/*    
       {newItems.map((item) => {
         return (
           <div className="items" key={item.name}>
@@ -26,7 +26,7 @@ export const Slider = () => {
             
           </div>
         );
-      })}
+      })} */}
     </>
   );
 };

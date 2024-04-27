@@ -36,8 +36,10 @@ export const Hero = () => {
           {/* GRID 2  end*/}
           {/* GRID 3*/}
           <div className=" w-[450px] flex flex-col gap-4">
-            <div className="bg-espresso h-[8vh] rounded-[50px] flex 
-                           justify-between items-center cursor-pointer ">
+            <div
+              className="bg-espresso h-[8vh] rounded-[50px] flex 
+                           justify-between items-center cursor-pointer "
+            >
               <div className=" text-white font-poppins text-2xl py-3 px-4">
                 Shop now
               </div>
@@ -45,11 +47,11 @@ export const Hero = () => {
                 <ArrowUpRight size={32} />
               </div>
             </div>
-            <div className="h-[80vh] bg-heroMediumGrid hero-img relative flex justify-center items-end"></div>
+            <div className="h-[80vh] bg-heroMediumGrid hero-img"></div>
           </div>
           {/* GRID 3 end*/}
         </div>
-{/* Small Screen */}
+        {/* Small Screen */}
         <div className="lg:hidden h-[90vh] bg-heroMainGrid hero-small-screen flex items-end justify-center">
           <div className="w-[300px] h-[70px] round flex justify-center items-center">
             <div className="btn-small-screen w-[275px]">
