@@ -15,8 +15,8 @@ export const Nav = () => {
 
       <div
         className="lg:flex gap-8 pr-4 
-                  font-robo uppercase
-                  tracking-tight text-lg items-center hidden"
+                  font-poppins uppercase 
+                  text-lg items-center hidden"
       >
         <Link to="/new" className="new-arrivals">
           New

@@ -19,7 +19,8 @@ export default {
       colors:{
         'espresso': '#482e1d',
         'pine': '#4D5038',
-        'pantone' : '#16151d'
+        'pantone' : '#16151d',
+        'barely' : '#ddeodf'
       },
       
     //  Background Images
