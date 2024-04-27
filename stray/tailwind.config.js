@@ -43,6 +43,7 @@ export default {
         'heroImg3' : "url('assets/images/try3.jpeg')",
         'heroImg1-1' : "url('assets/images/trym1.jpeg')",
         'heroImg1-2' : "url('assets/images/tryw1.jpeg')",
+        'smallgrid3' : "url('assets/images/bag-img.jpeg')",
 
       }
   },

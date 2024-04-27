@@ -12,9 +12,22 @@ export const Hero = () => {
               <div className="vertical-text">#Men Polo T-shirt </div>
             </div>
             <div className=" h-[40vh] hero-img bg-heroImg1-2 flex items-center">
-               <div className="vertical-text">#Women Cardigan </div>
+              <div className="vertical-text">#Women Cardigan </div>
             </div>
-            <div className=" h-[20vh]"></div>
+            <div
+              className=" h-[25vh] bg-[#4B4239] rounded-[40px] flex
+                             justify-between p-5  flex-col"
+            >
+              <div className="ml-64 arrow ">
+                <ArrowUpRight size={32} />
+              </div>
+              <div
+                className="text-left font-poppins
+                             text-[25px] px-6 py-3 text-white"
+              >
+                Korean Bags
+              </div>
+            </div>
           </div>
           {/* first row end */}
 
@@ -27,8 +40,7 @@ export const Hero = () => {
               <div className=" text-white font-poppins text-2xl py-3 px-4">
                 Shop now
               </div>
-              <div className=" bg-white rounded-[50px] p-1 mr-2 border border-white">
-                {" "}
+              <div className=" bg-white rounded-[50px] p-1 mr-2">
                 <ArrowUpRight size={32} />
               </div>
             </div>

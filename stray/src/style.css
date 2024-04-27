@@ -95,3 +95,9 @@
     color: rgb(41, 40, 40);
     font-weight: 400;
   }
+  .arrow{
+    background-color: white;
+    border-radius: 500px;
+    padding: 5px;
+    
+  }
