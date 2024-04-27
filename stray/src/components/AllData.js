@@ -16,6 +16,7 @@ import Img7 from '../assets/images/newArrivals/7.png'
 import Img8 from '../assets/images/newArrivals/8.jpeg'
 
 
+
 // exports
 export const ourBrands = [
     {
@@ -102,3 +103,5 @@ export const newItems = [
         category: "Women",
     },
 ]
+
+

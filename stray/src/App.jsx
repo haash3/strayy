@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Router>
-        <MarqueeFeature />
+        {/* <MarqueeFeature /> */}
         <Nav />
         <Routes>
             <Route path="/" element={<Home />}/>

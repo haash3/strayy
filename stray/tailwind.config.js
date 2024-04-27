@@ -35,10 +35,15 @@ export default {
         },
       },
       backgroundImage: {
-        'hero' : "url('assets/images/hero.png')",
-        'heroSscreen' : "url('assets/images/hero-sscreen.jpg')",
+        'hero' : "url('assets/images/rr.jpg')",
+        'heroSmallscreen' : "url('assets/images/rr.jpg')",
         'banner1' : "url('assets/images/banner1.png')",
         'banner1Ss' : "url('assets/images/banner1Ss.jpeg')",
+        'heroImg2' : "url('assets/images/try2.jpeg')",
+        'heroImg3' : "url('assets/images/try3.jpeg')",
+        'heroImg1-1' : "url('assets/images/trym1.jpeg')",
+        'heroImg1-2' : "url('assets/images/tryw1.jpeg')",
+
       }
   },
 
