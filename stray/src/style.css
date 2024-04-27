@@ -103,3 +103,34 @@
     cursor: pointer;
     
   }
+
+  .navMenu{
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    left: 5%;
+
+    border-radius: 50px;
+    backdrop-filter: blur(56px) ;
+    -webkit-backdrop-filter: blur(56px);
+    background-color: rgba(241, 241, 241, 0.129);
+    width: 90vw;
+    max-height: auto;
+    font-family: poppins;
+    font-size: 20px;
+    color: rgba(28, 27, 27, 0.992);
+    padding: 50px;
+   
+
+  }
+  .navMenu.active{
+    display: flex;
+   
+  }
+ 
+  
+  
