@@ -7,43 +7,27 @@ export default {
   ],
   theme: {
     extend: {
+      // Fonts
       fontFamily: {
         opensans: ['OpenSans', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         dmsans: [' DM Sans, sans-serif'],
         robo: ['Roboto Condensed', 'sans-serif'],
-        alphaget: ['Alphaget']
+        
       },
+      // Colors
       colors:{
-        'secondary': '#DDDDDD',
-        'midnight': '#121063'
+        'espresso': '#482e1d',
+        'pine': '#4D5038',
+        'pantone' : '#16151d'
       },
-      // new-arrivals text animation
-      animation: {
-        text: 'text 5s ease infinite',
-      },
-      keyframes: {
-        text: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center',
-          },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center',
-          },
-        },
-      },
+      
+    //  Background Images
       backgroundImage: {
-        'hero' : "url('assets/images/rr.jpg')",
-        'heroSmallscreen' : "url('assets/images/rr.jpg')",
-        'banner1' : "url('assets/images/banner1.png')",
-        'banner1Ss' : "url('assets/images/banner1Ss.jpeg')",
-        'heroImg2' : "url('assets/images/try2.jpeg')",
-        'heroImg3' : "url('assets/images/try3.jpeg')",
-        'heroImg1-1' : "url('assets/images/trym1.jpeg')",
-        'heroImg1-2' : "url('assets/images/tryw1.jpeg')",
-        'smallgrid3' : "url('assets/images/bag-img.jpeg')",
+        'heroMainGrid' : "url('assets/images/heromaingrid.jpeg')",
+        'heroMediumGrid' : "url('assets/images/heromediumgrid.jpeg')",
+        'heroSmallGridM' : "url('assets/images/herosmallgridmen.jpeg')",
+        'heroSmallGridF' : "url('assets/images/herosmallgridwomen.jpeg')",
 
       }
   },
