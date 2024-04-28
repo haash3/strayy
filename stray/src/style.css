@@ -1,5 +1,4 @@
-
-.row-container{
+/* .row-container{
     display: flex;
     gap:1rem;
     overflow-x: scroll;
@@ -21,116 +20,94 @@
     outline: 1px solid rgba(0, 0, 0);
    
   }
-  
-  .btns{
-    display: flex;
-    justify-content: space-between;
-    gap:8px;
-  }
-  .btn{
-    background-color: rgb(227, 229, 229);
-    padding: 4px;
-  }
-  .btn:hover{
-    background-color: rgb(212, 213, 213);
-  }
-  .hero-img{
-    background-repeat: no-repeat;
-    border-radius: 50px;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(85%) saturate(150%) ;
-  }
-  .round{
-    border-radius: 40px 40px 0px 0px;
-    background-color: white;
-    padding-top: 10px;
+   */
+/* Hero section */
+.hero-img {
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(85%) saturate(150%);
+}
+.hero-small-screen {
+  filter: brightness(100%) saturate(150%);
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-small-screen {
+  background-color: #433229;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: poppins;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    
-  }
-  .nav{
-    color: rgb(39, 36, 36);       
-    background-color: rgb(234, 234, 234);
-    border-bottom: 1px solid black;
-  }
-  .logo{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center; 
-    font-size: 40px;
-  }
-  .logo-text{
-    line-height: 85%;
-  }
-  .flip{
-    -moz-transform: scale(1, -1);
-    -webkit-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-  }
-  .hero-small-screen{
-    filter: brightness(100%) saturate(150%);
-    border-radius: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .btn-small-screen{
-    background-color: #433229;
-    border-radius: 50px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    font-family: poppins;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .vertical-text{
-    writing-mode: vertical-lr; 
-    text-orientation: mixed;
-    transform: rotate(180deg);
-    text-align: center;
-    padding: 15px;
-    color: rgb(41, 40, 40);
-    font-weight: 400;
-  }
-  .arrow{
-    background-color: white;
-    border-radius: 500px;
-    padding: 5px;
-    cursor: pointer;
-    
-  }
+/* NavBar  */
+.nav {
+  color: rgb(39, 36, 36);
+  background-color: rgb(234, 234, 234);
+  border-bottom: 1px solid black;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  font-size: 40px;
+}
+.logo-text {
+  line-height: 85%;
+}
+.flip {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+.navMenu {
+  display: none;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  left: 5%;
 
-  .navMenu{
-    display: none;
-    flex-direction: column;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    position: absolute;
-    left: 5%;
+  border-radius: 50px;
+  backdrop-filter: blur(56px);
+  -webkit-backdrop-filter: blur(56px);
+  background-color: rgba(241, 241, 241, 0.129);
+  width: 90vw;
+  max-height: auto;
+  font-family: poppins;
+  font-size: 20px;
+  color: rgba(28, 27, 27, 0.992);
+  padding: 50px;
+}
+.navMenu.active {
+  display: flex;
+}
+/* Common usage */
 
-    border-radius: 50px;
-    backdrop-filter: blur(56px) ;
-    -webkit-backdrop-filter: blur(56px);
-    background-color: rgba(241, 241, 241, 0.129);
-    width: 90vw;
-    max-height: auto;
-    font-family: poppins;
-    font-size: 20px;
-    color: rgba(28, 27, 27, 0.992);
-    padding: 50px;
-   
-
-  }
-  .navMenu.active{
-    display: flex;
-   
-  }
- 
-  
-  
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  text-align: center;
+  padding: 15px;
+  color: rgb(41, 40, 40);
+  font-weight: 400;
+}
+.arrow {
+  background-color: white;
+  border-radius: 500px;
+  padding: 5px;
+  cursor: pointer;
+}
