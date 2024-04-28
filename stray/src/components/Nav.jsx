@@ -42,7 +42,8 @@ export const Nav = () => {
 
         <div className="lg:flex gap-4 hidden">
           <Link to="/cart">
-            <Heart size={28} />
+            <Heart size={28} weight="fill"
+           />
           </Link>
 
           <Link to="/cart">
@@ -78,10 +79,10 @@ export const Nav = () => {
           <Link to="/aboutus" onClick={closeMenu}>
             About us
           </Link>
-          <Link to="/cart" onClick={closeMenu}>
+          <Link to="/cart" onClick={closeMenu} className="colorFill">
             Wishlist
           </Link>
-          <Link to="/aboutus" onClick={closeMenu}>
+          <Link to="/aboutus" onClick={closeMenu} className="colorFill">
             Cart
           </Link>
         </div>
