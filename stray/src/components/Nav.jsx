@@ -18,7 +18,7 @@ export const Nav = () => {
   return (
     <>
       <div
-        className=" flex items-center justify-between
+        className=" flex items-center justify-between 
                       padding-x py-4 text-center nav relative"
       >
         <Link to="/">
