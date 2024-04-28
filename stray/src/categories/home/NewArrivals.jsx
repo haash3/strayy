@@ -25,29 +25,28 @@ export const NewArrivals = () => {
   // horizontal scroll effect end.
  
   return (
-    <>
-    hello
-    </>
-    // <section className="padding-x padding-y">
-    //   <div className='btns'>
-    //   <div className="font-poppins text-[32px] ">
-    //     New Arrivals 
-    //   </div>
-    //   {/* buttons */}
-    //   <div className='btns'>
-    //     <button title='scroll left'  onClick={slideLeft}>
-    //       <ArrowLeft size={30} className='btn' />
-    //     </button>
-    //     <button title='scroll right' onClick={slideRight}>
-    //       <ArrowRight size={30} className='btn' />
-    //     </button>
-    //   </div>
-    //   </div>
+   
+    <section className="padding-x padding-y newArrivals">
+      <div className='btns'>
+      <div className="font-poppins text-[32px] ">
+        New Arrivals 
+      </div>
+      {/* buttons */}
+      <div className='btns'>
+        <button title='scroll left'  onClick={slideLeft}>
+          <ArrowLeft size={30} className='btn' />
+        </button>
+        <button title='scroll right' onClick={slideRight}>
+          <ArrowRight size={30} className='btn' />
+        </button>
+      </div>
+      </div>
      
-    //   <div  className="row-container" id="slider">
-    //   <Slider />
-    //   </div>
+      <div  className="item-container" id="slider">
+      <Slider />
+      </div>
       
-    // </section>
+    </section>
+    
   )
 }

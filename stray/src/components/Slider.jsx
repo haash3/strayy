@@ -1,6 +1,6 @@
 import React from "react";
 // import { useState } from "react";
-// import { newItems } from "../components/AllData";
+import { newItems } from "./AllData";
 // import { Link } from "react-router-dom";
 
 export const Slider = () => {
@@ -9,10 +9,10 @@ export const Slider = () => {
   return (
     <>
     
-{/*    
+   
       {newItems.map((item) => {
         return (
-          <div className="items" key={item.name}>
+          <div className="item" key={item.name}>
             
             <div className="sm:w-[18.6rem] w-[12rem]">
               <img src={item.img} />
@@ -26,7 +26,7 @@ export const Slider = () => {
             
           </div>
         );
-      })} */}
+      })}
     </>
   );
 };
