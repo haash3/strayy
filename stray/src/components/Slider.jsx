@@ -14,13 +14,13 @@ export const Slider = () => {
         return (
           <div className="item" key={item.name}>
             
-            <div className="sm:w-[18.6rem] w-[12rem]">
+            <div className="sm:w-[20rem] w-[12rem]">
               <img src={item.img} />
             </div>
             <div className="px-2 py-4">
               <p className="priceEffect font-robo">₹{item.price}</p>
               <p className="mb-2 font-dmsans font-semibold">{item.name}</p>
-              <p className="text-black/45 font-dmsans">{item.category}</p>
+              {/* <p className="text-black/45 font-dmsans">{item.category}</p> */}
             </div>
            
             

@@ -48,7 +48,9 @@
       @apply sm:pb-24 pb-12;
     }
     
-    
+    .item-container::-webkit-scrollbar {
+      display: none;
+     }
     
     
    
