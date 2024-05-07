@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <>
       <div className="h-[100vh]  padding-x py-8">
-        <div className="lg:flex gap-6 h-[90vh] hidden">
+        <div className="lg:flex gap-3 h-[90vh] hidden">
           {/* GRID 1*/}
           <div className="w-[350px] flex flex-col gap-4 font-poppins">
             <div className=" h-[40vh] hero-img bg-heroSmallGridM flex items-center">

@@ -25,7 +25,7 @@ export const NewArrivals = () => {
   return (
     <section className="padding-x padding-y">
       <div className="text-grid">
-        <div className="font-poppins text-[3rem] tracking-wide">New Arrivals </div>
+        <div className="font-poppins text-[2.5rem] tracking-wide">New Arrivals </div>
         {/* buttons */}
         <div className="sliderBtns ">
           <button title="scroll left" onClick={slideLeft}>
