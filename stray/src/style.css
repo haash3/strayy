@@ -2,10 +2,10 @@
 /* Hero section */
 .hero-img {
   background-repeat: no-repeat;
-  border-radius: 50px;
-  background-size: cover;
-  background-position: center;
-  filter: brightness(85%) saturate(150%);
+  background-size: contain;
+  /* background-position: center; */
+  filter: brightness(100%) saturate(120%);
+  margin: 1rem;
 }
 .hero-small-screen {
   filter: brightness(100%) saturate(150%);

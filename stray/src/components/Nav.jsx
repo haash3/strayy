@@ -19,7 +19,8 @@ export const Nav = () => {
     <>
       <div
         className=" flex items-center justify-between 
-                      padding-x py-4 text-center nav relative"
+                      padding-x py-4 text-center nav relative
+"
       >
         <Link to="/">
           {" "}

@@ -29,6 +29,7 @@ export default {
         'heroMediumGrid' : "url('assets/images/heromediumgrid.jpeg')",
         'heroSmallGridM' : "url('assets/images/herosmallgridmen.jpeg')",
         'heroSmallGridF' : "url('assets/images/herosmallgridwomen.jpeg')",
+        'heroBanner' : "url('assets/images/banner.png')",
 
       }
   },
