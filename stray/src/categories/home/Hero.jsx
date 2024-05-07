@@ -4,7 +4,9 @@ import { CaretDoubleRight } from "@phosphor-icons/react";
 export const Hero = () => {
   return (
     <>
-      <div className="padding-x padding-y bg-heroBanner  h-[100vh] hero-img">
+      <div className="padding-x padding-y bg-heroBanner
+      flex flex-col justify-center
+      h-[100vh] hero-img">
         <div className="padding-x padding-y">
             <div className="font-dmsans text-black/75
                             font-semibold text-[1rem]"

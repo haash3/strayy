@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Heart, ShoppingBag, List, XCircle } from "@phosphor-icons/react";
+import { Heart, ShoppingBag, List, XCircle, MagnifyingGlass  } from "@phosphor-icons/react";
 import { Logo } from "./Logo";
 
 // Main-Code
@@ -19,26 +19,20 @@ export const Nav = () => {
     <>
       <div
         className=" flex items-center justify-between 
-                      padding-x py-4 text-center nav relative
+                      padding-x py-4 text-center nav
 "
       >
         <Link to="/">
-          {" "}
-          <Logo />{" "}
+         <Logo />
         </Link>
 
         <div
-          className="lg:flex gap-8 pr-4 
-                  font-poppins uppercase 
-                  text-lg items-center hidden"
-        >
-          <Link to="/new">New</Link>
-          <Link to="/shop">Shop</Link>
-          <Link to="/deals">Offers</Link>
-          <Link to="/accessories">Accessories</Link>
-          <Link to="/aboutus" onClick={closeMenu}>
-            About us
-          </Link>
+          className="lg:flex gap-2 p-2 w-[16rem] border border-black
+          rounded-full 
+                  font-poppins  bg-white
+                  text-[0.8rem] items-center hidden"
+        ><MagnifyingGlass size={20} /> Search here 
+          
         </div>
 
         <div className="lg:flex gap-4 hidden">
