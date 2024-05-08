@@ -4,16 +4,16 @@ import { CaretDoubleRight } from "@phosphor-icons/react";
 export const Hero = () => {
   return (
     <>
-      <div className="padding-x padding-y bg-heroBanner
+      <div className="padding-x padding-y 
       flex flex-col justify-center
-      h-[100vh] hero-img">
+      h-[100vh] hero-img lg:bg-heroBanner bg-SmallScreenHero">
         <div className="padding-x padding-y">
             <div className="font-dmsans text-black/75
                             font-semibold text-[1rem]"
                            >Starting from ₹499
             </div>
             <div className="font-poppins
-                            font-semibold text-[3rem]"
+                            font-semibold lg:text-[3rem] text-[2rem]"
                            >Exclusive collection <br /> for everyone
             </div>
             <div className="font-poppins bg-[#bfa688] w-[11.5rem] p-2 flex

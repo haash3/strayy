@@ -3,7 +3,7 @@
 .hero-img {
   background-repeat: no-repeat;
   background-size: contain;
-  /* background-position: center; */
+  background-position: center;
   filter: brightness(100%) saturate(120%);
   margin: 1rem;
 }
