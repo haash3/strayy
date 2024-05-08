@@ -1,5 +1,6 @@
 import React from "react";
 import { CaretDoubleRight } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -20,8 +21,11 @@ export const Hero = () => {
                             items-center gap-2  tracking-wider text-[#2d1d1a]
                             justify-center mt-5
                             font-semibold text-[1rem] rounded-full"
-                           >Explore Now 
-                           <CaretDoubleRight size={28} />
+                           >
+                            <Link to= "/shop">
+                            Explore Now 
+                            </Link> <CaretDoubleRight size={28} />
+                          
                            {/* link button to products shop */}
             </div>
         </div>

@@ -7,23 +7,7 @@
   filter: brightness(100%) saturate(120%);
   margin: 1rem;
 }
-.hero-small-screen {
-  filter: brightness(100%) saturate(150%);
-  border-radius: 50px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.btn-small-screen {
-  background-color: #433229;
-  border-radius: 50px;
-  padding: 10px;
-  margin: 10px;
-  font-size: 20px;
-  font-family: poppins;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .round{
   background-color: white;
   border-radius: 30px 30px 0px 0px;
@@ -55,30 +39,7 @@
   -ms-transform: scale(1, -1);
   transform: scale(1, -1);
 }
-.navMenu {
-  display: none;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  position: absolute;
-  left: 5%;
 
-  border-radius: 50px;
-  backdrop-filter: blur(56px);
-  -webkit-backdrop-filter: blur(56px);
-  background-color: rgba(241, 241, 241, 0.129);
-  width: 90vw;
-  max-height: auto;
-  font-family: poppins;
-  font-size: 20px;
-  color: rgba(28, 27, 27, 0.992);
-  padding: 50px;
-}
-.navMenu.active {
-  display: flex;
-}
 /* New Arrivals Section */
 .item-container{
   display: flex;
@@ -129,6 +90,42 @@
   background-color: bisque;
   height: 10rem;
   width: 10rem;
+}
+/* Collections sections */
+.explore-grid{
+  background-color: #f0f0f0;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 1.5rem 0.3rem;
+  margin: 1.9rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+}
+.explore-grid-head{
+  font-size: 1.5rem;
+  font-family: poppins;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.explore-grid-desp{
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: poppins;
+  color: gray;
+}
+.explore-grid-btn{
+  /* display: flex;
+  align-items: center;
+  gap: 0.3rem; */
+  display: block;
+}
+.left-border{
+  border-left: 2.5px solid #d4d6d9;
+  padding-left: 0.5rem;
+
+  
 }
 /* Common usage */
 
