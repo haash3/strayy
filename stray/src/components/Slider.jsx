@@ -18,8 +18,6 @@ export const Slider = () => {
             
             <div className="sm:w-[20rem] w-[12rem] relative">
               <img src={item.img} />
-              <button className='cart-btn'>Cart <Plus size={16} className='inline'/></button>
-
             </div>
             <div className="px-2 py-4">
               <p className="priceEffect font-robo">₹{item.price}</p>

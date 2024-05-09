@@ -14,7 +14,7 @@ export const CapCollections = () => {
           <span className="text-gray-500">Top it off with style</span>
         </div>
 
-        <div className="grid grid-cols-4 grid-rows-2 gap-5">
+        <div className="grid grid-cols-4 grid-rows-2 gap-3">
           {CapItems.map((item) => (
             <div key={item.id} className="cap-item">
               <div className="relative">
@@ -28,9 +28,7 @@ export const CapCollections = () => {
                   <p className="font-robo">₹{item.price}</p>
                 </div>
                 <div> 
-                <button className="cart-btn">
-                  ShopNow
-                </button>
+                
                 </div>
               </div>
             </div>
