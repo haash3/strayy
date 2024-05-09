@@ -35,7 +35,12 @@ export const Nav = () => {
           
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 items-center">
+          <Link to="/about">
+          <p className="lg:hidden block font-poppins font-medium uppercase">
+            About us
+          </p>
+          </Link>
           <Link to="/cart">
             <Heart size={28} weight="fill"
            />
