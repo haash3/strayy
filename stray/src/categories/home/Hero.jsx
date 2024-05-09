@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export const Hero = () => {
   return (
     <>
-      <div className="padding-x padding-y 
+      <div className="padding-x py-[8rem] 
       flex flex-col justify-center
       h-[100vh] hero-img lg:bg-heroBanner bg-SmallScreenHero">
-        <div className="padding-x padding-y">
+        <div className="padding-x py-[8rem]">
             <div className="font-dmsans text-black/75
                             font-semibold text-[1rem]"
                            >Starting from ₹499

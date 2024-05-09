@@ -14,6 +14,15 @@ import Img5 from '../assets/images/newArrivals/5.jpg'
 import Img6 from '../assets/images/newArrivals/6.jpg'
 import Img7 from '../assets/images/newArrivals/7.jpg'
 import Img8 from '../assets/images/newArrivals/8.jpg'
+import Img9 from '../assets/images/CapCollection/cap3.jpg'
+import Img10 from '../assets/images/CapCollection/cap4.jpg'
+import Img11 from '../assets/images/CapCollection/cap1.jpg'
+import Img12 from '../assets/images/CapCollection/cap2.jpg'
+import Img13 from '../assets/images/CapCollection/cap5.jpg'
+import Img14 from '../assets/images/CapCollection/cap6.jpg'
+import Img15 from '../assets/images/CapCollection/cap7.jpg'
+import Img16 from '../assets/images/CapCollection/cap8.jpg'
+
 
 
 
@@ -101,6 +110,72 @@ export const newItems = [
         name: "Nike P-6000",
         price: 15000,
         category: "Women",
+    },
+]
+
+export const CapItems = [
+    {
+        id:1,
+        img:Img9,
+        name:"Basic Cap",
+        price: '2000'
+
+    },
+    {
+        id:2,
+        img:Img11,
+        name:"Contrast Patch Cap",
+        price: '2000'
+
+
+    },
+    {
+        id:3,
+        img:Img12,
+        name:"Embroidered Slogan Cap",
+        price: '2000'
+
+
+    },
+    {
+        id:4,
+        img:Img13,
+        name:"Soft Cap",
+        price: '2000'
+
+
+    },
+    {
+        id:5,
+        img:Img14,
+        name:"Cap with Raised Slogan",
+        price: '2000'
+
+
+    },
+    {
+        id:6,
+        img:Img15,
+        name:"Technical Cap",
+        price: '2000'
+
+
+    },
+    {
+        id:7,
+        img:Img16,
+        name:"Washed Denim Cap",
+        price: '2000'
+
+
+    },
+    {
+        id:8,
+        img:Img10,
+        name:"Waxed-Effect Cap",
+        price: '2000'
+
+
     },
 ]
 

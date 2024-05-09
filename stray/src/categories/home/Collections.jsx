@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Collections = () => {
   return (
     <>
-        <div className='padding-x padding-y'>
+        <div className='padding-x pt-[8rem]'>
             <div className='font-poppins lg:text-[2.25rem] text-[2rem]
             text-pantone font-semibold'>
                 Start exploring. &nbsp;
