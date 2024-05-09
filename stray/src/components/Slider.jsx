@@ -1,6 +1,8 @@
 import React from "react";
 // import { useState } from "react";
 import { newItems } from "./AllData";
+import { Plus } from "@phosphor-icons/react"
+
 // import { Link } from "react-router-dom";
 
 export const Slider = () => {
@@ -14,7 +16,7 @@ export const Slider = () => {
         return (
           <div className="item" key={item.name}>
             
-            <div className="sm:w-[20rem] w-[12rem]">
+            <div className="sm:w-[20rem] w-[12rem] relative">
               <img src={item.img} />
             </div>
             <div className="px-2 py-4">

@@ -13,6 +13,8 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         dmsans: [' DM Sans, sans-serif'],
         robo: ['Roboto Condensed', 'sans-serif'],
+        lora : ['Lora', 'serif'],
+        oswald : ['Oswald', 'sanserif']
         
       },
       // Colors
@@ -29,6 +31,11 @@ export default {
         'heroMediumGrid' : "url('assets/images/heromediumgrid.jpeg')",
         'heroSmallGridM' : "url('assets/images/herosmallgridmen.jpeg')",
         'heroSmallGridF' : "url('assets/images/herosmallgridwomen.jpeg')",
+        'heroBanner' : "url('assets/images/banner.png')",
+        'SmallScreenHero' : "url('assets/images/exclusive2.png')",
+        'aboutUs' : "url('assets/images/aboutus.png')",
+        'aboutUsSs' : "url('assets/images/aboutusSmallScreen.png')",
+        'newsletter' : "url('assets/images/newsletter.png')",
 
       }
   },
