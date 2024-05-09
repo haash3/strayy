@@ -35,6 +35,7 @@ export default {
         'SmallScreenHero' : "url('assets/images/exclusive2.png')",
         'aboutUs' : "url('assets/images/aboutus.png')",
         'aboutUsSs' : "url('assets/images/aboutusSmallScreen.png')",
+        'newsletter' : "url('assets/images/newsletter.png')",
 
       }
   },

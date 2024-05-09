@@ -222,6 +222,30 @@
   padding: 0.5rem 0.9rem;
 
 }
+/* delivery-features section */
+.delivery-features{
+  border: 1px solid rgb(209, 209, 209);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.ss-delivery-features{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 1.5rem;
+  border-radius: 10px;
+  gap: 1rem;
+
+}
+.feature{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* Common usage */
 
 .vertical-text {
