@@ -41,19 +41,23 @@
 /* New Arrivals Section */
 .item-container {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   overflow-x: scroll;
   overflow-y: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;
-  padding: 1rem 0.1rem;
+  /* padding: 1rem 0.1rem; */
 }
 .item {
   cursor: pointer;
+  margin: 1.9rem 0rem;
+  outline: none;
 }
 .item:hover {
-  filter: brightness(95%);
   outline: 1px solid black;
+  transition: outline 0.3s ease;
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
 .text-grid {
@@ -140,17 +144,18 @@
   border-radius: 50px;
   background: #f0f0f06c;
   border: 1px solid #e8e8e8;
-  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  /* box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff; */
   color: black;
   font-family: poppins;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
-  position: absolute;
-  top: 1.2rem;
-  right: 1rem;
+  padding: 0.3rem 0.3rem;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
   font-size: 0.8rem;
-  transition: all 0.1s;
+  position: absolute;
+  bottom: 12rem;
+  left: 8rem;
+  /* z-index: 1; */
   
 }
 .cart-btn:active {

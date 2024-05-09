@@ -23,9 +23,15 @@ export const NewArrivals = () => {
   // horizontal scroll effect end.
 
   return (
-    <section className="padding-x padding-y">
+    <section className="padding-x pt-8">
       <div className="text-grid">
-        <div className="font-poppins text-[2.5rem] tracking-wide">New Arrivals </div>
+      <div className='font-poppins lg:text-[2.25rem] text-[2rem]
+            text-pantone font-semibold'>
+                Latest Drops. &nbsp;
+                <span className='text-gray-500'>
+                Stay ahead with New Arrivals
+                </span>
+            </div>
         {/* buttons */}
         <div className="sliderBtns ">
           <button title="scroll left" onClick={slideLeft}>
