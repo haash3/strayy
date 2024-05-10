@@ -36,6 +36,8 @@ export default {
         'aboutUs' : "url('assets/images/aboutus.png')",
         'aboutUsSs' : "url('assets/images/aboutusSmallScreen.png')",
         'newsletter' : "url('assets/images/newsletter.png')",
+        'aboutUsPage' : "url('assets/images/aboutUsPage.png')",
+        'aboutusmain' : "url('assets/images/aboutusmain.png')",
 
       }
   },

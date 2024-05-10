@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
+
 import { Planet, GlobeHemisphereWest, ArrowUpRight } from '@phosphor-icons/react'
 
 export const AboutUsSection = () => {
@@ -15,10 +17,14 @@ export const AboutUsSection = () => {
         {/* Large Screens */}
         <div className='about-us '>
             <div className='bg-aboutUs relative img-grid rounded-[50px]'>
+                <Link to='/about'>
               <div className='learn-more-btn uppercase'>
+
                 <p className='font-dmsans'>Learn More </p>
                 <ArrowUpRight size={22}/>
               </div>
+                
+                </Link>
             </div>
             <div className='aboutUs-text-grid rounded-[50px]'>
               <div className='font-oswald text-[4rem] font-bold 

@@ -8,6 +8,7 @@ import {Shop} from './pages/Shop'
 import {Cart} from './pages/Cart'
 import { Footer } from "./components/Footer";
 import { Copyright } from "./components/Copyright";
+import { AboutUs } from "./pages/AboutUs";
 
 
 // Main-code
@@ -22,6 +23,7 @@ function App() {
             <Route path="/shop"element={<Shop />} />
             <Route path="/new"element={<New />}/>
             <Route path="/cart"element={<Cart />}/>
+            <Route path="/about"element={<AboutUs />}/>
         </Routes>
         <Footer />
         <Copyright />
