@@ -9,11 +9,9 @@ export default {
     extend: {
       // Fonts
       fontFamily: {
-        opensans: ['OpenSans', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         dmsans: [' DM Sans, sans-serif'],
         robo: ['Roboto Condensed', 'sans-serif'],
-        lora : ['Lora', 'serif'],
         oswald : ['Oswald', 'sanserif']
         
       },

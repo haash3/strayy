@@ -15,8 +15,6 @@
 /* NavBar  */
 .nav {
   color: rgb(39, 36, 36);
-  /* background-color: rgb(234, 234, 234); */
-  /* border-bottom: 1px solid black; */
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.276);
 }
 
@@ -80,16 +78,10 @@
   border-radius: 50px;
   padding: 0.4rem;
 }
-/* tote-bag Collection section */
-.bag {
-  background-color: bisque;
-  height: 10rem;
-  width: 10rem;
-}
+
 /* Collections sections */
 .explore-grid {
   background-color: #f0f0f0;
-  /* border: 1px solid black; */
   border-radius: 10px;
   padding: 1.5rem 0.3rem;
   margin: 1.9rem 0rem;
@@ -110,12 +102,7 @@
   font-family: poppins;
   color: gray;
 }
-.explore-grid-btn {
-  /* display: flex;
-  align-items: center;
-  gap: 0.3rem; */
-  display: block;
-}
+
 .left-border {
   border-left: 2.5px solid #d4d6d9;
   padding-left: 0.5rem;
@@ -138,32 +125,9 @@
 }
 .filter {
   filter: saturate(150%);
-  /* width: 300px; */
-}
-.cart-btn {
-  border-radius: 50px;
-  background: #f0f0f06c;
-  border: 1px solid #e8e8e8;
-  /* box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff; */
-  color: black;
-  font-family: poppins;
-  padding: 0.3rem 0.3rem;
-  border-radius: 50px;
-  width: 75px;
-  height: 75px;
-  font-size: 0.8rem;
-  position: absolute;
-  bottom: 12rem;
-  left: 8rem;
-  /* z-index: 1; */
   
 }
-.cart-btn:active {
-  box-shadow: 4px 4px 12px #a3a3a3;
 
-  position: absolute;
-  top: 1.4rem;
-}
 /* about-us */
 .about-us{
   margin: 2.9rem 0rem;
@@ -185,12 +149,7 @@
   align-items: start;
   padding: 3rem 3rem;
 }
-@media (max-width: 640px) {
-  .display{
-    display: none;/* Change to single column for small screens */
-  }
-  
-}
+
 
 .aboutUs-text-box{
   border: 1px solid #435132;
@@ -231,15 +190,6 @@
   align-items: center;
   border-radius: 10px;
 }
-.ss-delivery-features{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 1px solid rgb(209, 209, 209);
-  padding: 1.5rem;
-  border-radius: 10px;
-  gap: 1rem;
-
-}
 .feature{
   display: flex;
   align-items: center;
@@ -263,7 +213,7 @@
 }
 
 .headSection-img{
-  border: 1px solid #9AAF70;
+ border: 1px solid #9AAF70;
  background-position: left;
  background-size: contain;
  background-repeat: no-repeat;
@@ -303,7 +253,6 @@
 .goal-section{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  /* align-items: center; */
 }
 .goalsSection-heading{
   font-size: 5rem;
@@ -314,21 +263,10 @@
   
 }
 
-
-/* Common usage */
-
-.vertical-text {
-  writing-mode: vertical-lr;
-  text-orientation: mixed;
-  transform: rotate(180deg);
-  text-align: center;
-  padding: 15px;
-  color: rgb(41, 40, 40);
-  font-weight: 400;
-}
-.arrow {
-  background-color: white;
-  border-radius: 500px;
-  padding: 5px;
-  cursor: pointer;
+/* Media queries */
+@media (max-width: 640px) {
+  .display{
+    display: none;/* Change to single column for small screens */
+  }
+  
 }
