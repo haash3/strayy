@@ -7,7 +7,7 @@ export const Hero = () => {
     <>
       <div className="padding-x py-[8rem] 
       flex flex-col justify-center
-      h-[100vh] hero-img lg:bg-heroBanner bg-SmallScreenHero">
+      h-[100vh] hero-img lg:bg-hero bg-MiniHero">
         <div className="padding-x py-[8rem]">
             <div className="font-dmsans text-black/75
                             font-semibold text-[1rem]"

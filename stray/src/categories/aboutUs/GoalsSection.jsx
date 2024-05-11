@@ -18,7 +18,7 @@ export const GoalsSection = () => {
             positive impact on both people and the planet, fostering a more sustainable and equitable future for generations to come. 
              </p>
           </div>
-          <div className="bg-aboutusmission headSection-img  display"></div>
+          <div className="bg-aboutGoal headSection-img  display"></div>
 
         </div>
       </section>

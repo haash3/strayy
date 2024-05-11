@@ -16,7 +16,7 @@ export const AboutUsSection = () => {
         </div>
         {/* Large Screens */}
         <div className='about-us '>
-            <div className='bg-aboutUs relative img-grid rounded-[50px]'>
+            <div className='bg-aboutGrid relative img-grid rounded-[50px]'>
                 <Link to='/about'>
               <div className='learn-more-btn uppercase'>
 
