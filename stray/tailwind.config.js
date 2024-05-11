@@ -27,18 +27,13 @@ export default {
       
     //  Background Images
       backgroundImage: {
-        'heroMainGrid' : "url('assets/images/heromaingrid.jpeg')",
-        'heroMediumGrid' : "url('assets/images/heromediumgrid.jpeg')",
-        'heroSmallGridM' : "url('assets/images/herosmallgridmen.jpeg')",
-        'heroSmallGridF' : "url('assets/images/herosmallgridwomen.jpeg')",
-        'heroBanner' : "url('assets/images/banner.png')",
-        'SmallScreenHero' : "url('assets/images/exclusive2.png')",
-        'aboutUs' : "url('assets/images/aboutus.png')",
-        'aboutUsSs' : "url('assets/images/aboutusSmallScreen.png')",
-        'newsletter' : "url('assets/images/newsletter.png')",
-        'aboutUsPage' : "url('assets/images/aboutUsPage.png')",
-        'aboutusmain' : "url('assets/images/aboutusmain.png')",
-
+        'heroBanner' : "url('assets/images/sectionBgs/1.png')",
+        'SmallScreenHero' : "url('assets/images/sectionBgs/2.png')",
+        'aboutUs' : "url('assets/images/sectionBgs/3.png')",
+        'aboutusmain' : "url('assets/images/sectionBgs/4.png')",
+        'aboutusmission' : "url('assets/images/sectionBgs/5.png')",
+        'aboutusvalues1' : "url('assets/images/sectionBgs/6.png')",
+      
       }
   },
 

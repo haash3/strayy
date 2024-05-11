@@ -22,7 +22,7 @@ import Img13 from '../assets/images/CapCollection/cap5.jpg'
 import Img14 from '../assets/images/CapCollection/cap6.jpg'
 import Img15 from '../assets/images/CapCollection/cap7.jpg'
 import Img16 from '../assets/images/CapCollection/cap8.jpg'
-import aboutImg1 from '../assets/images/aboutusmain.png'
+// import aboutImg1 from '../assets/images/aboutusmain.png'
 
 
 
@@ -179,10 +179,4 @@ export const CapItems = [
 
     },
 ]
- export const aboutUs = [
-    {
-        img: aboutImg1
-
-    }
- ]
-
+ 
