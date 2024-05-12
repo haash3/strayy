@@ -1,17 +1,18 @@
 import React from "react";
+import './deliveryfeatures.css'
 import { Package, Truck, CurrencyCircleDollar, Globe } from "@phosphor-icons/react";
 export const DeliveryFeatures = () => {
   return (
-    <section className="padding-x pt-[3rem] pb-8">
+    <section className="container">
     <div className="delivery-features">
         
         <div className="feature">
           <Package size={28} />
-          <div>
-          <h2 className="font-poppins font-semibold lg:text-[1.1rem] text-[0.8rem]">
+          <div className="feature-text">
+          <h2>
             Free shipping 
           </h2>
-          <p className="font-dmsans font-medium lg:text-[0.9rem] text-[0.6rem]">
+          <p>
             On orders over ₹499 
           </p>
           </div>
@@ -19,11 +20,11 @@ export const DeliveryFeatures = () => {
         </div>
         <div className="feature">
           <Truck size={28} />
-          <div>
-          <h2 className="font-poppins font-semibold lg:text-[1.1rem] text-[0.8rem]">
+          <div className="feature-text">
+          <h2>
             Easy returns 
           </h2>
-          <p className="font-dmsans font-medium lg:text-[0.9rem] text-[0.6rem]">
+          <p>
             Just phone number 
           </p>
           </div>
@@ -31,11 +32,11 @@ export const DeliveryFeatures = () => {
         </div>
         <div className="feature">
           <Globe size={28} />
-          <div>
-          <h2 className="font-poppins font-semibold lg:text-[1.1rem] text-[0.8rem]">
+          <div className="feature-text">
+          <h2>
             WorldWide Delivery
           </h2>
-          <p className="font-dmsans font-medium lg:text-[0.9rem] text-[0.6rem]">
+          <p>
             Fast delivery world wide
           </p>
           </div>
@@ -43,11 +44,11 @@ export const DeliveryFeatures = () => {
         </div>
         <div className="feature">
           <CurrencyCircleDollar size={28} />
-          <div>
-          <h2 className="font-poppins font-semibold lg:text-[1.1rem] text-[0.8rem]">
+          <div className="feature-text">
+          <h2>
             Refund policy 
           </h2>
-          <p className="font-dmsans font-medium lg:text-[0.9rem] text-[0.6rem]">
+          <p>
             60 days return for any reason
           </p>
           </div>

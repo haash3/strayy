@@ -6,6 +6,36 @@
 .section-head span {
   color: rgb(148, 148, 148);
 }
+.footer{
+  padding: 3rem 0rem;
+  background-color: rgb(19, 19, 19);
+  color: rgb(102, 102, 102);
+  font-size: 1rem;
+  font-family: poppins;
+}
+.footer-text{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding-bottom: 0rem;
+  cursor: pointer;
+}
+.copyright{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: rgb(19, 19, 19);
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(102, 102, 102);
+  padding: 0rem 0rem 3rem;
+}
+.copyright div{
+  display: flex;
+  gap: 0.8rem;
+}
 
 
 
@@ -25,33 +55,13 @@
 
 
 /* Cap Collections */
-.cap-item {
- 
-}
-.cap-item:hover {
- 
-}
-.filter {
-  filter: saturate(150%);
-  
-}
+
+
 
 /* about-us */
 
 /* delivery-features section */
-.delivery-features{
-  border: 1px solid rgb(209, 209, 209);
-  padding: 1.5rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 10px;
-}
-.feature{
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
+
 
 /* About US page */
 .head-section{

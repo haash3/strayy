@@ -1,11 +1,8 @@
 import React from "react";
 export const Footer = () => {
   return (
-    <footer className="py-6 bg-black/90
-                       text-white/95 font-dmsans 
-                       lg:text-[18px] text-[16px]">
-        <div className="flex gap-6 justify-center py-2
-                        cursor-pointer">
+    <footer className="footer">
+        <div className="footer-text">
             <p>About</p>
             <p>Store locator</p>
             <p>FAQs</p>
