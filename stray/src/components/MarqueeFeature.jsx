@@ -1,13 +1,12 @@
 import Marquee from "react-fast-marquee";
 import { Asterisk } from "@phosphor-icons/react";
+import './components.css'
 
 
 
 export const MarqueeFeature = () => (
     <Marquee 
-    className="bg-black text-white
-              h-10 font-semibold 
-              tracking-widest uppercase" 
+    className="marquee" 
     autoFill={true}
     gradient='true'
     gradientColor="black"
@@ -17,17 +16,17 @@ export const MarqueeFeature = () => (
     direction="left"
     
     >
-      <div className="flex items-center gap-2 mr-16 font-robo">
+      <div className="marquee-text">
       <Asterisk size={16}/>
       <p>GET 70% OFF ON YOUR FIRST PURCHASE</p>
       <Asterisk size={16}/>
       </div>
-      <div className="flex items-center gap-2 mr-16 font-robo">
+      <div className="marquee-text">
         <Asterisk size={16}/>
         <p>Check out our New Arrivals</p>
         <Asterisk size={16}/>
       </div>
-      <div className="flex items-center gap-2 mr-16 font-robo">
+      <div className="marquee-text">
         <Asterisk size={16}/>
         <p>Subscribe for early access on New arrivals</p>
         <Asterisk size={16}/>

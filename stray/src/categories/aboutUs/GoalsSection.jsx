@@ -2,17 +2,17 @@ import React from "react";
 
 export const GoalsSection = () => {
   return (
-    <section className="padding-x padding-y bg-[#6D8450] mx-8 rounded-[5rem]">
+    <section className="">
       <div className="goal-section">
         <div>
-          <div className="flex flex-col gap-0 leading-[4rem] text-black/80">
-            <div className="goalsSection-heading font-oswald">Our Mission</div>
-            <div className="font-poppins text-[2rem] pl-2 font-semibold ">
+          <div className="">
+            <div className="">Our Mission</div>
+            <div className="">
               Redefining style with sustainability in mind.
             </div>
           </div>
 
-          <p className="font-dmsans text-[1.5rem] font-semibold text-left py-2 px-4 text-[#9AAF70]">
+          <p className="">
             Our mission is to revolutionize the fashion industry by promoting
             sustainable practices and eco-friendly production methods. We aim to
             empower individuals to make conscious choices while offering
@@ -22,7 +22,7 @@ export const GoalsSection = () => {
             sustainable and equitable future for generations to come.
           </p>
         </div>
-        <div className="bg-aboutGoal headSection-img  display"></div>
+        <div className="bg-aboutGoal headSection-img display"></div>
       </div>
     </section>
   );

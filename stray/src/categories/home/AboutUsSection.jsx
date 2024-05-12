@@ -20,10 +20,10 @@ export const AboutUsSection = () => {
         <div className="about-us ">
           <div className="bg-aboutGrid relative img-grid rounded-[50px]">
             <Link to="/about">
-              <div className="learn-more-btn uppercase">
+              {/* <div className="learn-more-btn uppercase">
                 <p className="font-dmsans">Learn More </p>
                 <ArrowUpRight size={22} />
-              </div>
+              </div> */}
             </Link>
           </div>
           <div className="aboutUs-text-grid rounded-[50px]">

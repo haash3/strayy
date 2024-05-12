@@ -1,57 +1,43 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Heart, ShoppingBag, List, XCircle, MagnifyingGlass  } from "@phosphor-icons/react";
+import { Storefront, ShoppingBag, MagnifyingGlass } from "@phosphor-icons/react";
 import { Logo } from "./Logo";
-import {SearchButton} from "./SearchButton"
+import { SearchButton } from "./SearchButton"
+import '../index.css'
 
 // Main-Code
 // bg-[#B9A698]
 export const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleVisibility = () => {
-    setIsOpen(!isOpen);
-  };
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
   return (
-    <>
-      <div
-        className=" flex items-center justify-between 
-                      padding-x py-4 text-center nav
-"
-      >
-        <Link to="/">
-         <Logo />
-        </Link>
+    <nav className="navbar">
+      <div className="container nav">
+        <Link to="/"><Logo /></Link>
 
-        <div  className="lg:flex gap-2 justify-between p-2 w-[16rem] border border-black
-                        rounded-full font-poppins  bg-white
-                        text-[0.8rem] items-center hidden">
-          <SearchButton />
-        <MagnifyingGlass size={20} />
+          <div className="search-bar">
+            <SearchButton />  
+            <MagnifyingGlass size={20}/>
+            
+          </div>
+
+
+        <div className="nav-links">
+
+          <Link to="/about" className="nav-text hover">
+            <Storefront size={26} />
+            <p>Shop</p>
+
+          </Link>
           
+          <Link to="/cart" className="nav-text cart hover">
+            <ShoppingBag size={28}/>
+            <p>Cart</p>
+
+          </Link>
         </div>
 
-        <div className="flex gap-4 items-center">
-          <Link to="/about">
-          <p className="lg:hidden block font-poppins font-medium uppercase">
-            About us
-          </p>
-          </Link>
-          <Link to="/cart">
-            <Heart size={28} weight="fill"
-           />
-          </Link>
-
-          <Link to="/cart">
-            <ShoppingBag size={28} />
-          </Link>
-        </div>
-       
       </div>
-    </>
+    </nav>
   );
 };

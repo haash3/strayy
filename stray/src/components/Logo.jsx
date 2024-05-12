@@ -1,16 +1,13 @@
 import React from "react";
+import './components.css'
 
 export const Logo = () => {
   return (
-    <div className="logo font-dmsans font-semibold">
-      <div className="logo-text flex">
-        O<div className="flip">N</div>
+    <section className="">
+      <div className="logo">
+      <p>ONLY</p>
       </div>
       
-      <div className="logo-text flex ">
-        L<div className="rotate"> &nbsp;Y</div>
-      </div>
-      
-    </div>
+    </section>
   );
 };

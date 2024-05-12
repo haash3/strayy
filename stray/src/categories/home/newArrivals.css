@@ -1,0 +1,81 @@
+.buttons-grid {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .item {
+    cursor: pointer;
+    outline: none;
+    margin: 0rem 0.3rem;
+    transition: all 0.15s ease-in;
+  }
+   .item-header{
+    width: 17.2rem;
+  }
+  .item:hover {
+    outline: 1px solid black;
+    transition: outline 0.3s ease;
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+  }
+  .item-container {
+    display: flex;
+    gap: 0.2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    position: relative;
+    padding: 1.9rem 0.1rem;
+
+  }
+  .sliderBtns {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    border-radius: 100px;
+    margin-right: 4rem;
+    width: 1rem;
+  }
+  .btn {
+    background-color: rgba(0, 0, 0, 0.881);
+    color: white;
+    border-radius: 50px;
+    padding: 0.4rem;
+  }
+  .item-description h2{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem 0.2rem 0rem;
+  }
+.item-description p{
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 0rem 0.2rem;
+
+}
+
+
+
+/* scroll-bar */
+  .item-container::-webkit-scrollbar {
+    display: none;
+   }
+  
+
+
+
+   /* responsive design */
+
+   @media (max-width: 640px) {
+    .item-header{
+      width: 15.5rem;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .display{
+      display: none;
+    }
+  }

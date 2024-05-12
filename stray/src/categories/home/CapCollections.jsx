@@ -1,36 +1,23 @@
 import React from "react";
 import { CapItems } from "../../components/AllData";
 import { Plus } from "@phosphor-icons/react";
+import './capCollections.css'
 
 export const CapCollections = () => {
   return (
     <>
-      <div className="padding-x py-[4rem]">
-        <div
-          className="font-poppins lg:text-[2.25rem] text-[2rem]
-                                text-pantone font-semibold"
-        >
+      <div className="container">
+        <div className="section-head">
           Cap Collections. &nbsp;
           <span className="text-gray-500">Top it off with style</span>
         </div>
 
-        <div className="grid grid-cols-4 grid-rows-2 gap-3">
+        <div className="cap-collections-container">
           {CapItems.map((item) => (
-            <div key={item.id} className="cap-item">
-              <div className="relative">
-                <img src={item.img} className="filter" />
-              </div>
-              <div className="px-4">
-                <div>
-                  <p className="font-poppins font-semibold text-[0.9rem]">
-                    {item.name}
-                  </p>
-                  <p className="font-robo">₹{item.price}</p>
-                </div>
-                <div> 
-                
-                </div>
-              </div>
+            <div key={item.id} className="cap-collections-item">
+              <img src={item.img} />
+              <h2>{item.name}</h2>
+              <p>₹{item.price}</p>
             </div>
           ))}
         </div>
