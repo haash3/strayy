@@ -12,6 +12,7 @@
     background-position: center;
     background-size: contain;
     width: 25rem;
+    position: relative;
   }
   .about-text-side{
     background-color: #6D8450; 
@@ -67,21 +68,27 @@
     margin-top: 0.3rem;
     
   }
-  
   .learn-more-btn{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: 0.3rem;
-    left: 8.6rem;
+    top: 32.5rem;
+    left: 6.6rem;
     background-color: #DBDAD8;
     border-radius: 50px;
     font-size: 1rem;
-    width: 225px;
-    padding: 0.5rem 0.9rem;
-  
+    width: 12rem;
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-family: "Poppins";
   }
+  .learn-more-btn svg{
+    background-color: #545652;
+    border-radius: 500px;
+    color: rgb(225, 225, 225);
+    padding: 0.2rem;
+  }
+  
   .about-text-side-info #about-us-mini{
     display: none;
   }

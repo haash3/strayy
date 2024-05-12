@@ -18,10 +18,10 @@ export const AboutUsSection = () => {
         <div className="about-us-section">
           <div className="about-img-side">
             <Link to="/about">
-              {/* <div className="learn-more-btn uppercase">
+              <div className="learn-more-btn">
                 <p className="font-dmsans">Learn More </p>
-                <ArrowUpRight size={22} />
-              </div> */}
+                <ArrowUpRight size={30} />
+              </div>
             </Link>
           </div>
           <div className="about-text-side">
