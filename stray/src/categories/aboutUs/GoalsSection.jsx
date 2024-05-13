@@ -2,17 +2,17 @@ import React from "react";
 
 export const GoalsSection = () => {
   return (
-    <section className="">
+    <section className="goals">
       <div className="goal-section">
         <div>
-          <div className="">
-            <div className="">Our Mission</div>
-            <div className="">
+          <div className="goalsSection-heading">
+            <h1>Our Mission</h1>
+            <h2>
               Redefining style with sustainability in mind.
-            </div>
+            </h2>
           </div>
 
-          <p className="">
+          <p className="goalsSection-description">
             Our mission is to revolutionize the fashion industry by promoting
             sustainable practices and eco-friendly production methods. We aim to
             empower individuals to make conscious choices while offering
@@ -22,7 +22,7 @@ export const GoalsSection = () => {
             sustainable and equitable future for generations to come.
           </p>
         </div>
-        <div className="bg-aboutGoal headSection-img display"></div>
+        <div className="goalsSection-img"></div>
       </div>
     </section>
   );

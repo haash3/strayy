@@ -1,16 +1,16 @@
 import React from "react";
+import './aboutpage.css'
 
 export const HeadSection = () => {
   return (
-    <section className="">
+    <section className="about-container">
       <div className="head-section">
-        <div className=" headSection-img display"></div>
+        <div className=" headSection-img"></div>
         <div className="headSection-text">
-          "Experience the <span className="span">evolution</span>
+          "Experience the <span className="span">evolution </span>
           of
-          <br />
           Manufacturing with us. <br />
-          <span className="">-We're changing the game"</span>
+          <span>-We're changing the game"</span>
         </div>
       </div>
     </section>

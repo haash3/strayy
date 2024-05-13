@@ -46,7 +46,10 @@ export const AboutUsSection = () => {
                   We're on a mission to empower create independence in a
                   commercial world and incredible.
                 </p>
+                <Link to="/about">
                 <button id="about-us-mini">Learn More  <ArrowUpRight size={30} /></button>
+
+                </Link>
 
               </div>
             </div>

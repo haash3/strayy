@@ -6,7 +6,7 @@ import { OurValues } from '../categories/aboutUs/OurValues'
 
  export const AboutUs = () => {
   return (
-    <section className="bg-[#242919]">
+    <section className="about">
     <HeadSection />
     <GoalsSection />
     <OurValues />
