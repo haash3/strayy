@@ -175,28 +175,176 @@
     }
     .goalsSection-heading h2{
       font-size: 1rem;
-      font-weight: 600;
-      text-align: center;
-      padding: 0rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 1rem;
 
   
     }
     .goalsSection-description{
-        text-align: center;
-        font-size: 0.9rem;
-        padding: 0rem;
+       display: none;
     }
 
 
    
   }
-  @media (max-width: 850px) {
+  @media (max-width: 1040px) {
+    .head-section{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+  
+  .headSection-text{
+      font-size: 1.1rem;
+      
+  }
+  .goal-section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+  }
+  .headSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .valuesSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-heading h1{
+    font-size: 1.7rem;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 0rem;
+  }
+  .goalsSection-heading{
+    line-height: 1.6rem;
+  }
+  .goalsSection-heading h2{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+
+
+  }
+  .goalsSection-description{
+      display: none;
+  }
     
   }
   
   @media (max-width: 600px) {
+    .head-section{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+  
+  .headSection-text{
+      font-size: 1.1rem;
+      
+  }
+  .goal-section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+  }
+  .headSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .valuesSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-heading h1{
+    font-size: 1.7rem;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 0rem;
+  }
+  .goalsSection-heading{
+    line-height: 1.6rem;
+  }
+  .goalsSection-heading h2{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+
+
+  }
+  .goalsSection-description{
+      display: none;
+  }
     
   }
   @media (max-width: 450px) {
+    .head-section{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+  
+  .headSection-text{
+      font-size: 1.1rem;
+      
+  }
+  .goal-section{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+  }
+  .headSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .valuesSection-img{
+      width: 200px;
+      height: 200px;
+  }
+  .goalsSection-heading h1{
+    font-size: 1.7rem;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 0rem;
+  }
+  .goalsSection-heading{
+    line-height: 1.6rem;
+  }
+  .goalsSection-heading h2{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+
+  }
+  .goalsSection-description{
+      display: none;
+  }
     
   }
