@@ -14,7 +14,7 @@ export const Hero = ({ text }) => {
               <p>{text}</p>
               <h2>Exclusive collections<br />for everyone</h2>
               <Link onClick={() => window.scrollTo(0, 0)} to="/shop">
-                <button>Explore Now <CaretDoubleRight size={30} /></button>
+                <button id="explore-btn">Explore Now <CaretDoubleRight size={30} /></button>
               </Link>
             </div>
           </div>

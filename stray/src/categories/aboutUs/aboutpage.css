@@ -20,8 +20,8 @@
     font-family: "Poppins";
    
   }
-  .headSection-text span{
-    color: rgb(117, 117, 117);
+  #gray{
+    color: rgba(110, 110, 110, 0.59);
   }
   .headSection-img{
     background-image: url("../../assets/images/sectionBgs/4.png");

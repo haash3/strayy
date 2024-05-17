@@ -33,7 +33,7 @@
     font-weight: 600;
     opacity: 0.5;
 }
-.text-container button {
+.text-container #explore-btn {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -49,14 +49,12 @@
     transition: translateX 0.15s;
 
 }
-button >svg{
+#explore-btn >svg{
     transition:  transform 0.3s;
 }
-button:hover svg{
+#explore-btn:hover svg{
         transform: translateX(5px);
-        scale: 1.05;
-      
-      
+        scale: 1.05;     
 }
 
 /* responsive design */

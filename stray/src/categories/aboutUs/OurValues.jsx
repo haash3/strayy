@@ -9,7 +9,7 @@ export const OurValues = () => {
           "Driven by integrity, and innovation
           <br />
           guided by diversity and customer focus. <br />
-          <span>
+          <span id="gray">
             Together, our values fuel our mission for positive change."
           </span>
         </div>

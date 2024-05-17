@@ -10,7 +10,7 @@ export const HeadSection = () => {
           "Experience the <span className="span">evolution </span>
           of
           Manufacturing with us. <br />
-          <span>-We're changing the game"</span>
+          <span id="gray">-We're changing the game"</span>
         </div>
       </div>
     </section>

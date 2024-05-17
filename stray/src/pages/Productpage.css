@@ -1,0 +1,188 @@
+.product-container{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: flex;
+    gap: 0.3rem;
+
+}
+.product-img-container{
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+}
+.product-img-container #main-img{
+    width: 85%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.mini-images{
+    width: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+}
+/* text part */
+.product-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-grow: 0;
+    padding: 0rem 5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.head-part h1{
+    font-family: "Dm sans";
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.head-part p{
+    font-family: "Roboto Condensed";
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.504);
+    padding: 0.1rem 0.2rem;
+}
+.price-part h2{
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    font-weight: 600
+    
+}
+.price-part p{
+    color: rgb(184, 68, 68);
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.price-part h2{
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+.size-part{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.size-part p{
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+.button-part{
+    display: flex;
+    gap: 0.3rem;
+}
+.button-part #cart-btn{
+    background-color: rgb(231, 230, 230);
+    color: rgba(59, 58, 58, 0.759);
+    padding: 0.6rem 2.5rem ;
+    border-radius: 500px;
+    font-family: "Poppins";
+    font-weight: 500;
+    width: 25rem
+}
+.button-part #wishlist-btn{
+    background-color: rgb(231, 230, 230);
+    color: rgba(59, 58, 58, 0.759);
+    border-radius: 500px;
+    padding: 0.5rem 0.5rem;
+}
+.delivery-part{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.delivery-part div{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.delivery-part div p{
+    color: rgba(92, 91, 91, 0.648);
+}
+.details-part{
+    padding: 1rem 0rem;
+}
+.details-part h3{
+    padding: 1rem 0rem 0.3rem;
+     font-family: "Poppins";
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+.details-part p{
+    font-family: "Dm sans";
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.2rem 0rem;
+}
+.details-part  p span{
+    color: rgba(43, 43, 43, 0.82);
+    font-weight: 500;
+}
+.details-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9rem;
+}
+.details-head svg{
+    color: black;
+}
+.details-text{
+    transition: all 0.3s;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    width: 125%;
+}
+
+
+
+
+@media (max-width:768px) {
+    .product-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-img-container{
+        flex-direction: column;
+    }
+    .mini-images{
+        flex-direction: row;
+        justify-content: center;
+        margin: 0rem 4rem;
+    }
+    .product-img-container #main-img{
+        width: 25rem;
+        
+    }
+    .product-text-container h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:850px) {
+    .search-bar{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .search-bar{
+        display: none;
+    }
+
+}
+@media (max-width:450px) {
+    .search-bar{
+        display: none;
+    }
+
+}

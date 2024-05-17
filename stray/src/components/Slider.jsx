@@ -1,7 +1,7 @@
 import React from "react";
 import { newItems } from "./AllData";
 import '../categories/home/newArrivals.css'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 export const Slider = () => {
   return (
     <>
@@ -14,6 +14,9 @@ export const Slider = () => {
             <div className="item-description">
               <h2>₹{item.price}</h2>
               <p>{item.name}</p>
+              <Link to={`/shop/product/${item.id}`}>
+              <button>View Product</button>
+              </Link>
             </div>
           </div>
         );

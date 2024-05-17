@@ -33,10 +33,10 @@ export const NewArrivals = () => {
         </div>
         {/* buttons */}
         <div className="sliderBtns ">
-          <button title="scroll left" onClick={slideLeft}>
+          <button title="scroll left" onClick={slideLeft} id="slider-btn">
             <ArrowLeft size={36} className="btn" />
           </button>
-          <button title="scroll right" onClick={slideRight}>
+          <button title="scroll right" onClick={slideRight} id="slider-btn">
             <ArrowRight size={36} className="btn" />
           </button>
         </div>
