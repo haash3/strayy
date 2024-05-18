@@ -26,10 +26,11 @@
     font-weight: bold;
     margin-bottom: 1rem;
     line-height: 110%;
+    font-family: "Poppins";
 }
 .text-container p {
-    font-size: 1.5rem;
-    font-family: poppins;
+    font-size: 1.3rem;
+    font-family: "Dm sans";
     font-weight: 600;
     opacity: 0.5;
 }
@@ -43,7 +44,7 @@
     font-weight: 600;
     font-family: "poppins", sans-serif;
     padding: 0.5rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     cursor: pointer;
     border-radius: 50px;
     transition: translateX 0.15s;
