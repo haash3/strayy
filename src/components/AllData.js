@@ -83,6 +83,200 @@ import OtherImg22 from '../assets/images/CapCollection/cap8-1.png'
 import OtherImg23 from '../assets/images/CapCollection/cap8-2.png'
 import OtherImg24 from '../assets/images/CapCollection/cap8-3.png'
 
+// Offer Items
+import Img17 from '../assets/images/offerItems/off1.png'
+import Img18 from '../assets/images/offerItems/off2.png'
+import Img19 from '../assets/images/offerItems/off3.png'
+import Img20 from '../assets/images/offerItems/off4.png'
+import Img21 from '../assets/images/offerItems/off5.png'
+import Img22 from '../assets/images/offerItems/off6.png'
+import Img23 from '../assets/images/offerItems/off7.png'
+import Img24 from '../assets/images/offerItems/off8.png'
+import Img25 from '../assets/images/offerItems/off9.png'
+import Img26 from '../assets/images/offerItems/off10.png'
+import Img27 from '../assets/images/offerItems/off11.png'
+import Img28 from '../assets/images/offerItems/off12.png'
+import Img29 from '../assets/images/offerItems/off13.png'
+import Img30 from '../assets/images/offerItems/off14.png'
+import Img31 from '../assets/images/offerItems/off15.png'
+import Img32 from '../assets/images/offerItems/off16.png'
+import Img33 from '../assets/images/offerItems/off17.png'
+import Img34 from '../assets/images/offerItems/off18.png'
+import Img35 from '../assets/images/offerItems/off19.png'
+import Img36 from '../assets/images/offerItems/off20.png'
+import Img37 from '../assets/images/offerItems/off21.png'
+import Img38 from '../assets/images/offerItems/off22.png'
+import Img39 from '../assets/images/offerItems/off23.png'
+import Img40 from '../assets/images/offerItems/off24.png'
+
+
+
+
+
+
+
+
+export const discountItems = [
+    {
+        id:17,
+        img : Img17,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:18,
+        img : Img18,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:19,
+        img : Img19,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:20,
+        img : Img20,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:21,
+        img : Img21,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:22,
+        img : Img22,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:23,
+        img : Img23,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:24,
+        img : Img24,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:25,
+        img : Img25,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:26,
+        img : Img26,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:27,
+        img : Img27,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:28,
+        img : Img28,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:29,
+        img : Img29,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:30,
+        img : Img30,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:31,
+        img : Img31,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:32,
+        img : Img32,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:33,
+        img : Img33,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:34,
+        img : Img34,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:35,
+        img : Img35,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:36,
+        img : Img36,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:37,
+        img : Img37,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:38,
+        img : Img38,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:39,
+        img : Img39,
+        name :"Shirt",
+        price: "499.00",
+    },
+    {
+        id:40,
+        img : Img40,
+        name :"Shirt",
+        price: "499.00",
+    },
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const newItems = [
     {
