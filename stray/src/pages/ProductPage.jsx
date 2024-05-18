@@ -1,11 +1,11 @@
 import React from 'react'
-import { createContext, useContext, useState } from "react";
-import { CapCollections } from '../categories/home/CapCollections';
+import { useContext, useState } from "react";
 import { CapItems } from '../components/AllData';
 import { newItems } from '../components/AllData';
 import { useParams } from 'react-router-dom';
 import './Productpage.css';
 import { Heart, Building, Info, CaretCircleDown } from '@phosphor-icons/react';
+import { ShopContext } from '../context/ShopContextProvider';
 
 
 export const ProductPage = () => {
@@ -16,6 +16,8 @@ export const ProductPage = () => {
         setImage(e.target.src);
     };
 
+    // Using context provider for cart
+    const { addToCart } = useContext(ShopContext);
 
 
 
@@ -58,7 +60,9 @@ export const ProductPage = () => {
                         </div>
                     </div>
                     <div className='button-part'>
-                        <button id='cart-btn'>Add To Cart</button>
+                        <button id='cart-btn' onClick={() => addToCart(thisProduct.id)}>
+                            Add To Cart
+                        </button>
                         <button id='wishlist-btn'><Heart size={26} /></button>
                     </div>
                     

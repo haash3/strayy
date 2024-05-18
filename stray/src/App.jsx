@@ -10,12 +10,14 @@ import { Footer } from "./components/Footer";
 import { Copyright } from "./components/Copyright";
 import { AboutUs } from "./pages/AboutUs";
 import { ProductPage } from "./pages/ProductPage";
+import { ShopContextProvider } from "./context/ShopContextProvider";
 
 
 // Main-code
 function App() {
   return (
     <>
+    <ShopContextProvider >
       <Router>
         <Nav />
         <Routes>
@@ -28,6 +30,8 @@ function App() {
         <Footer />
         <Copyright />
       </Router>
+    </ShopContextProvider>
+
     </>
   );
 }
