@@ -6,8 +6,8 @@
   .item {
     cursor: pointer;
     outline: none;
-    margin: 0rem 0.3rem;
-    transition: all 0.3s ease-in;
+    margin: 0rem 0.4rem;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
     padding-bottom: 1rem;
     
   }
@@ -16,11 +16,11 @@
   }
   .item:hover {
     outline: 1px solid black;
-    transform: scale(1.01);
+    transform: scale(1.05);
   }
   .item-container {
     display: flex;
-    gap: 0.2rem;
+    gap: 0rem;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
