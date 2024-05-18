@@ -3,7 +3,6 @@ import './app-scrollbar.css'
 import './index.css'
 import { Nav } from './components/Nav';
 import {Home} from './pages/Home'
-import {New} from './pages/New'
 import {Shop} from './pages/Shop'
 import {Cart} from './pages/Cart'
 import { Footer } from "./components/Footer";
