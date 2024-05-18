@@ -17,7 +17,7 @@ export const AboutUsSection = () => {
         </div>
         <div className="about-us-section">
           <div className="about-img-side">
-            <Link onClick={() => window.scrollTo(0, 0)}  to="/about">
+            <Link onClick={() => window.scrollTo(0, 0)}  to="/about" className="link">
               <div className="learn-more-btn">
                 <p className="font-dmsans">Learn More </p>
                 <ArrowUpRight size={30} />
@@ -46,7 +46,7 @@ export const AboutUsSection = () => {
                   We're on a mission to empower create independence in a
                   commercial world and incredible.
                 </p>
-                <Link onClick={() => window.scrollTo(0, 0)}  to="/about">
+                <Link onClick={() => window.scrollTo(0, 0)}  to="/about" className="link">
                 <button id="about-us-mini">Learn More  <ArrowUpRight size={30} /></button>
 
                 </Link>

@@ -11,14 +11,12 @@
     padding-bottom: 1rem;
     
   }
-   .item-header{
+   .item-header img{
     width: 17.2rem;
   }
   .item:hover {
     outline: 1px solid black;
-    transition: outline 0.3s ease;
-    transform: scale(1.03);
-    transition: transform 0.3s ease;
+    transform: scale(1.01);
   }
   .item-container {
     display: flex;
@@ -52,14 +50,19 @@
   }
 
   .item-description h2{
-    font-family: "poppins";
+    font-family: "Roboto Condensed";
     font-weight: 600;
     font-size: 1rem;
-    padding: 0.8rem 0.2rem 0rem;
+    padding: 0.8rem 0.8rem 0rem;
   }
 .item-description p{
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 0rem 0.2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0rem 0.8rem 0.4rem;
+
+}
+.item-description button{
+  font-family: "Roboto Condensed";
+  padding: 0rem 0.8rem;
 
 }
 

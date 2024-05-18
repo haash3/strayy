@@ -20,7 +20,7 @@ export const Collections = () => {
                             <p>Starting from ₹499</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/shop">
+                            <Link to="/shop" className='link'>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 
@@ -33,7 +33,7 @@ export const Collections = () => {
                             <p>Starting from ₹499</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/shop">
+                            <Link to="/shop" className='link'>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 
@@ -46,7 +46,7 @@ export const Collections = () => {
                             <p>Explore Now</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/shop">
+                            <Link to="/shop" className='link'>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 

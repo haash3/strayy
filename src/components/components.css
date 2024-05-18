@@ -39,6 +39,10 @@
 .search:focus{
     outline: none;
 }
+.search{
+    all: unset;
+    font-family: "Poppins";
+}
 
 .container {
   max-width: 1200px;

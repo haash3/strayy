@@ -13,7 +13,7 @@ export const Nav = () => {
   return (
     <nav className="navbar">
       <div className="container nav">
-        <Link to="/"><Logo /></Link>
+        <Link to="/" className="link"><Logo /></Link>
 
           <div className="search-bar">
             <SearchButton />  
@@ -24,13 +24,13 @@ export const Nav = () => {
 
         <div className="nav-links">
 
-          <Link to="/about" className="nav-text hover">
+          <Link to="/about" className="nav-text hover link">
             <Storefront size={26} />
             <p>Shop</p>
 
           </Link>
           
-          <Link to="/cart" className="nav-text cart hover">
+          <Link to="/cart" className="nav-text cart hover link">
             <ShoppingBag size={28}/>
             <p>Cart</p>
 

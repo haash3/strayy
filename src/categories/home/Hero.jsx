@@ -13,7 +13,7 @@ export const Hero = ({ text }) => {
             <div className="text-container">
               <p>{text}</p>
               <h2>Exclusive collections<br />for everyone</h2>
-              <Link onClick={() => window.scrollTo(0, 0)} to="/shop">
+              <Link onClick={() => window.scrollTo(0, 0)} to="/shop" className="link">
                 <button id="explore-btn">Explore Now <CaretDoubleRight size={30} /></button>
               </Link>
             </div>

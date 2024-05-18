@@ -13,25 +13,31 @@
     gap: 0.1rem;
     padding-bottom: 1rem;
     outline: none;
-    transition: all 0.3 ease;
+    transition: scale 0.5s ease, outline 0.5s ease ;
 
 }
 .cap-collections-item:hover{
     outline: 1px solid black;
-    transition: outline 0.3s ease;
     transform: scale(1.03);
-    transition: transform 0.3s ease;
 }
 .cap-collections-item h2{
-    font-family: "poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 1rem;
-    padding: 0.8rem 0.2rem 0rem;
+    font-size: 1.2rem;
+    padding: 0.8rem 0.8rem 0.4rem;
 }
 .cap-collections-item p{
     font-family: "Roboto Condensed", sans-serif;
-    padding: 0rem 0.2rem;
+    padding: 0rem 0.8rem 0.4rem;
+    font-size: 1.1rem;
 
+}
+.cap-collections-item img{
+    width: 100%;
+}
+.cap-collections-item button{
+    font-family: "Roboto Condensed";
+    padding: 0rem 0.8rem;
 }
 
 

@@ -14,7 +14,7 @@ export const Slider = () => {
             <div className="item-description">
               <h2>₹{item.price}</h2>
               <p>{item.name}</p>
-              <Link to={`/shop/product/${item.id}`}>
+              <Link to={`/shop/product/${item.id}`} className="link">
               <button>View Product</button>
               </Link>
             </div>
