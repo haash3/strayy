@@ -14,7 +14,8 @@ export const Slider = () => {
             <div className="item-description">
               <h2>₹{item.price}</h2>
               <p>{item.name}</p>
-              <Link to={`/shop/product/${item.id}`} className="link">
+              <Link to={`/shop/product/${item.id}`}
+               className="link" onClick={() => window.scrollTo(0, 0)} >
               <button>View Product</button>
               </Link>
             </div>

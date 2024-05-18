@@ -1,0 +1,46 @@
+.shop-container{
+    padding-top: 8rem;
+    height: 100vh;
+}
+.categories-list{
+    display: flex;
+    gap: 2rem;
+    font-family: "Poppins";
+
+}
+.categories h2{
+    font-size: 2rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 0.04rem;
+    padding: 1rem 0rem;
+}
+.categories h2 span{
+    color: gray;
+}
+.categories-list div {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-between;
+    font-family: "Dm sans";
+    font-weight: 400;
+    background-color: rgba(177, 177, 177, 0.503);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    margin: 1rem 0rem;
+    text-transform: uppercase;
+}
+.categories-list div h3{
+   margin-left: 1rem;
+}
+.offer-collections h2{
+    font-size: 2rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 0.04rem;
+    padding: 4rem 0rem;
+}
+.offer-collections h2 span{
+    color: rgb(172, 172, 172);
+}

@@ -24,7 +24,7 @@ export const Nav = () => {
 
         <div className="nav-links">
 
-          <Link to="/about" className="nav-text hover link">
+          <Link to="/shop" className="nav-text hover link">
             <Storefront size={26} />
             <p>Shop</p>
 

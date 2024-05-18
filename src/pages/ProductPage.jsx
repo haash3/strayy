@@ -48,6 +48,7 @@ export const ProductPage = () => {
                     <div className='size-part'>
                         <p>{thisProduct.size[0]}</p>
                         <p>{thisProduct.size[1]}</p>
+                        <p>{thisProduct.size[2]}</p>
                     </div>
                     <div className='delivery-part'>
                         <div>
@@ -65,19 +66,20 @@ export const ProductPage = () => {
                         </button>
                         <button id='wishlist-btn'><Heart size={26} /></button>
                     </div>
-                    
+
                     <div className='details-part'>
-                    <hr />
+                        <hr />
 
                         <h3>Product details</h3>
-                        <p>Weight:&nbsp;<span id='detail'>{thisProduct.productDetails[0]}</span></p>
+                        <p>Net Quantity:&nbsp;<span id='detail'>{thisProduct.productDetails[0]}</span></p>
                         <p>Common generic name:&nbsp;<span>{thisProduct.productDetails[1]}</span></p>
-                        <p>Model size:&nbsp;<span>{thisProduct.productDetails[2]}</span></p>
+                        <p>Color:&nbsp;<span>{thisProduct.productDetails[2]}</span></p>
                         <p>Size:&nbsp;<span> {thisProduct.productDetails[3]}</span></p>
-                        <p>Accessory Style:&nbsp;<span>{thisProduct.productDetails[4]}</span></p>
-                        <p>Description:&nbsp;<span>{thisProduct.productDetails[5]}</span></p>
+                        <p> Style:&nbsp;<span>{thisProduct.productDetails[4]}</span></p>
+                        <p>Manufactured by:&nbsp;<span>{thisProduct.productDetails[5]}</span></p>
+                        <p>Country of Production:&nbsp;<span>{thisProduct.productDetails[6]}</span></p>
                         <hr />
-                 
+
                     </div>
 
 

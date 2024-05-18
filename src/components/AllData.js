@@ -1,19 +1,47 @@
 import Img1 from '../assets/images/newArrivals/1.png'
-import OtherImg25 from '../assets/images/newArrivals/1-1.jpg'
-import OtherImg26 from '../assets/images/newArrivals/1-2.jpg'
-import OtherImg27 from '../assets/images/newArrivals/1-3.jpg'
+import OtherImg25 from '../assets/images/newArrivals/1-1.png'
+import OtherImg26 from '../assets/images/newArrivals/1-2.png'
+import OtherImg27 from '../assets/images/newArrivals/1-3.png'
+
+import Img2 from '../assets/images/newArrivals/2.png'
+import OtherImg28 from '../assets/images/newArrivals/2-1.png'
+import OtherImg29 from '../assets/images/newArrivals/2-2.png'
+import OtherImg30 from '../assets/images/newArrivals/2-3.png'
+
+import Img3 from '../assets/images/newArrivals/3.png'
+import OtherImg31 from '../assets/images/newArrivals/3-1.png'
+import OtherImg32 from '../assets/images/newArrivals/3-2.png'
+import OtherImg33 from '../assets/images/newArrivals/3-3.png'
+
+import Img4 from '../assets/images/newArrivals/4.png'
+import OtherImg34 from '../assets/images/newArrivals/4-1.png'
+import OtherImg35 from '../assets/images/newArrivals/4-2.png'
+import OtherImg36 from '../assets/images/newArrivals/4-3.png'
 
 
-
-
-
-import Img2 from '../assets/images/newArrivals/2.jpg'
-import Img3 from '../assets/images/newArrivals/3.jpg'
-import Img4 from '../assets/images/newArrivals/4.jpg'
 import Img5 from '../assets/images/newArrivals/5.jpg'
+import OtherImg37 from '../assets/images/newArrivals/5-1.jpg'
+import OtherImg38 from '../assets/images/newArrivals/5-2.jpg'
+import OtherImg39 from '../assets/images/newArrivals/5-3.jpg'
+
+
 import Img6 from '../assets/images/newArrivals/6.jpg'
+import OtherImg40 from '../assets/images/newArrivals/6-1.jpg'
+import OtherImg41 from '../assets/images/newArrivals/6-2.jpg'
+import OtherImg42 from '../assets/images/newArrivals/6-3.jpg'
+
 import Img7 from '../assets/images/newArrivals/7.jpg'
+import OtherImg43 from '../assets/images/newArrivals/7-1.jpg'
+import OtherImg44 from '../assets/images/newArrivals/7-2.jpg'
+import OtherImg45 from '../assets/images/newArrivals/7-3.jpg'
+
 import Img8 from '../assets/images/newArrivals/8.jpg'
+import OtherImg46 from '../assets/images/newArrivals/8-1.jpg'
+import OtherImg47 from '../assets/images/newArrivals/8-2.jpg'
+import OtherImg48 from '../assets/images/newArrivals/8-3.jpg'
+
+
+
 // Cap Collections (CapItems)
 import Img11 from '../assets/images/CapCollection/cap1.png'
 import OtherImg1 from '../assets/images/CapCollection/cap1-1.png'
@@ -60,61 +88,146 @@ export const newItems = [
     {
         id:9,
         img: Img1,
-        name: "Jordan Stadium 90",
+        name: "Regular Fit T-shirt",
         otherImgs: [OtherImg25, OtherImg26, OtherImg27],
-        description:"Stay comfortable all day in our cotton Basic Cap.",
-
-        price: 5500,
-        category: "Women",
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Gray",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:10,
         img: Img2,
-        name: "Air Jordan 1 Low",
-        category: "Men",
-        price: 2500,
+        name: "Slim Fit Jersey top",
+        otherImgs: [OtherImg28, OtherImg29, OtherImg30],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Brown",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:11,
         img: Img3,
-        name: "Air Jordan 1 Mid SE",
-        price: 4500,
-        category: "Women",
+        name: "Regular Fit Jersey top",
+        otherImgs: [OtherImg31, OtherImg32, OtherImg33],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Dark Grey",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:12,
         img: Img4,
-        name: "Air Jordan 1 Low SE",
-        price: 5000,
-        category: "Men",
+        name: "Slim Fit Waffled jersey top",
+        otherImgs: [OtherImg34, OtherImg35, OtherImg36],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Maroon",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:13,
         img: Img5,
-        name: "Tatum 2 Vortex PF",
-        price: 3000,
-        category: "Men",
+        name: "Cropped T-shirt",
+        otherImgs: [OtherImg37, OtherImg38, OtherImg39],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "White",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:14,
         img: Img6,
-        name: "Air Max DN",
-        price: 2000,
-        category: "Women",
+        name: "Fitted T-shirt",
+        otherImgs: [OtherImg40, OtherImg41, OtherImg42],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Red",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:15,
         img: Img7,
-        name: "Nike Dunk Low Retro",
-        price: 4000,
-        category: "Men",
+        name: "Printed T-shirt",
+        otherImgs: [OtherImg43, OtherImg44, OtherImg45],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Red and White",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
     {
         id:16,
         img: Img8,
-        name: "Nike P-6000",
-        price: 15000,
-        category: "Women",
+        name: "Cropped T-shirt",
+        otherImgs: [OtherImg46, OtherImg47, OtherImg48],
+        price: '999.00',
+        size: ["S","M","L" ],
+        description:`Top in waffled, midweight jersey made from a cotton blend with a round neckline, long sleeves, a straight-cut hem and ribbing around the neckline and cuffs.`,
+        productDetails:[
+        "1 N",
+        "T-shirt",
+        "Green",
+        "S, M, L,",
+        "Clothing",
+        "N/A",
+        "DIVIDED"
+        ]
     },
 ]
 
@@ -125,16 +238,16 @@ export const CapItems = [
         otherImgs: [OtherImg7, OtherImg8, OtherImg9],
         name:"Cap with an applique",
         price: '999.00',
-        size: ["ONESIZE"],
+        size: ["S","M","L" ],
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "Orange",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
 
     },
@@ -144,16 +257,16 @@ export const CapItems = [
         otherImgs: [OtherImg1, OtherImg2, OtherImg3],
         name:"Contrast Patch Cap",
         price: '419.00',
-        size: ["ONESIZE"],
+        size: ["S","M","L" ],
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "Navy Blue",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
 
 
@@ -164,17 +277,16 @@ export const CapItems = [
         img:Img12,
         otherImgs: [OtherImg4, OtherImg5, OtherImg6],
         name:"Cotton twill cap",
-        price: '599.00',
-        size: ["ONESIZE"],
+        price:["S","M","L" ],
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "Beige",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
 
     },
@@ -184,17 +296,17 @@ export const CapItems = [
         otherImgs: [OtherImg13, OtherImg14, OtherImg15],
         name:"Broderie anglaise cap",
         price: '1,499.00',
-        size: ["ONESIZE"],
+        size: ["S","M","L" ],
 
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
-        "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "White",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
 
 
@@ -205,16 +317,16 @@ export const CapItems = [
         otherImgs: [OtherImg16, OtherImg17, OtherImg18],
         name:"Cotton cap",
         price: '749.00',
-        size: ["XS/S","M/L" ],
+        size: ["S","M","L" ],
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
-            "110g",
+            "1 N",
             "Cap",
-            "The model is 174cm/5'9 and wears a size ONESIZE",
-            "56 cm, Length: 34 cm",
-            "Baseball cap",
-            "Black, Solid color",
-            ": DIVIDED"
+            "Cream White",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
             ]
 
     },
@@ -224,16 +336,16 @@ export const CapItems = [
         otherImgs: [OtherImg19, OtherImg20, OtherImg21],
         name:"Cotton twill cap",
         price: '999.00',
-        size: ["ONEsize"],
+        size: ["S","M","L" ],
         description: "Cap in cotton twill with embroidered eyelets and an adjustable tab with a metal fastener at the back. Cotton sweatband.",
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "White",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
 
 
@@ -246,16 +358,16 @@ export const CapItems = [
         otherImgs: [OtherImg22, OtherImg23, OtherImg24],
         name:"Cotton Twill Cap",
         price: '699',
-        size: ["ONEsize"],
+        size: ["S","M","L" ],
         description: "Cap in cotton twill with embroidered eyelets and an adjustable tab with a metal fastener at the back. Cotton sweatband.",
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ]
         
 
@@ -272,15 +384,15 @@ export const CapItems = [
         price: '599.00',
         description: `Cap in cotton twill with an adjustable tab and metal fastener at the back, and a cotton sweatband.`,
         productDetails:[
-            "110g",
-        "Cap",
-        "The model is 174cm/5'9 and wears a size ONESIZE",
-        "56 cm, Length: 34 cm",
-        "Baseball cap",
-        "Black, Solid color",
-        ": DIVIDED"
+            "1 N",
+            "Cap",
+            "Yellow",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
         ],
-        size: ["XS/S","M/L" ],
+        size: ["S","M","L" ],
 
 
 
