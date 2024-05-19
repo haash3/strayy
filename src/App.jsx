@@ -10,6 +10,9 @@ import { Copyright } from "./components/Copyright";
 import { AboutUs } from "./pages/AboutUs";
 import { ProductPage } from "./pages/ProductPage";
 import { ShopContextProvider } from "./context/ShopContextProvider";
+import { MenCollections } from "./pages/MenCollections";
+import { WomenCollections } from "./pages/WomenCollections";
+import { Accessories } from "./pages/Accessories";
 
 
 // Main-code
@@ -24,6 +27,9 @@ function App() {
             <Route path="/shop"element={<Shop />} />
             <Route path="/cart"element={<Cart />}/>
             <Route path="/about"element={<AboutUs />}/>
+            <Route path="/men"element={<MenCollections />}/>
+            <Route path="/women"element={<WomenCollections />}/>
+            <Route path="/accessories"element={<Accessories />}/>
             <Route path="/shop/product/:id" element={<ProductPage />} />
         </Routes>
         <Footer />

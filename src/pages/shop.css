@@ -56,11 +56,18 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 1rem;
-    padding-bottom: 1rem;
+    gap: 0.5rem;
+    padding: 0.5rem 0.2rem 0.3rem;
     outline: none;
     transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
 }
 .offer-item img{
     width: 100%;
+}
+.offer-item p, button {
+    font-family: "Roboto Condensed";
+}
+.offer-item h4 {
+    font-family: "Poppins";
+    font-weight: 600;
 }

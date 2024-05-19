@@ -2,6 +2,7 @@ import React from 'react'
 import "./shop.css"
 import { GenderFemale, GenderMale, Sunglasses } from '@phosphor-icons/react'
 import { discountItems } from '../components/AllData'
+import { Link } from 'react-router-dom'
 
 export const Shop = () => {
   return (
@@ -30,7 +31,12 @@ export const Shop = () => {
               {discountItems.map((item) => (
                 <div key={item.id} className='offer-item'>
                   <img src={item.img} />
-                  <p>{item.name}</p>
+                  <h4>{item.name}</h4>
+                  <p>{item.price}</p>
+                  <Link to={`/shop/product/${item.id}`}
+                  className='link' onClick={() => window.scrollTo(0, 0)}>
+                  <button>View Product</button>
+                  </Link>
 
                 </div>
               ))}

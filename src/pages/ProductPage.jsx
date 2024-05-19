@@ -1,7 +1,7 @@
 import React from 'react'
 import { useContext, useState } from "react";
 import { CapItems } from '../components/AllData';
-import { newItems } from '../components/AllData';
+import { newItems, discountItems } from '../components/AllData';
 import { useParams } from 'react-router-dom';
 import './Productpage.css';
 import { Heart, Building, Info, CaretCircleDown } from '@phosphor-icons/react';
@@ -10,7 +10,9 @@ import { ShopContext } from '../context/ShopContextProvider';
 
 export const ProductPage = () => {
     const { id } = useParams();
-    const thisProduct = CapItems.find(item => item.id === parseInt(id)) || newItems.find(item => item.id === parseInt(id))
+    const thisProduct = CapItems.find(item => item.id === parseInt(id)) 
+    || newItems.find(item => item.id === parseInt(id))
+    || discountItems.find(item => item.id === parseInt(id))
     const [image, setImage] = useState(thisProduct.img);
     const changeImage = (e) => {
         setImage(e.target.src);
