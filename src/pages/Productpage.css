@@ -66,6 +66,7 @@
     display: flex;
     gap: 1rem;
     align-items: center;
+    font-family: "Roboto Condensed";
 }
 .size-part p{
     border: 1px solid black;
@@ -82,7 +83,8 @@
     border-radius: 500px;
     font-family: "Poppins";
     font-weight: 500;
-    width: 25rem
+    width: 25rem;
+    text-align: center;
 }
 .button-part #wishlist-btn{
     background-color: rgb(231, 230, 230);

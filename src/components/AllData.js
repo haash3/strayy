@@ -203,12 +203,202 @@ import Img40 from '../assets/images/offerItems/off24.png'
 import OtherImg118 from '../assets/images/offerItems/off24-1.png'
 import OtherImg119 from '../assets/images/offerItems/off24-2.png'
 import OtherImg120 from '../assets/images/offerItems/off24-3.png'
+//Men
+import Img64 from '../assets/images/men/m1.png'
+import OtherImg121 from '../assets/images/men/m1-1.png'
+import OtherImg122 from '../assets/images/men/m1-2.png'
+import OtherImg123 from '../assets/images/men/m1-3.png'
+import Img41 from '../assets/images/men/m2.png'
+import OtherImg124 from '../assets/images/men/m2-1.png'
+import OtherImg125 from '../assets/images/men/m2-2.png'
+import OtherImg126 from '../assets/images/men/m2-3.png'
+import Img42 from '../assets/images/men/m3.png'
+import OtherImg127 from '../assets/images/men/m3-1.png'
+import OtherImg128 from '../assets/images/men/m3-2.png'
+import OtherImg129 from '../assets/images/men/m3-3.png'
+import Img43 from '../assets/images/men/m4.png'
+import OtherImg130 from '../assets/images/men/m4-1.png'
+import OtherImg131 from '../assets/images/men/m4-2.png'
+import OtherImg132 from '../assets/images/men/m4-3.png'
+import Img44 from '../assets/images/men/m5.png'
+import OtherImg133 from '../assets/images/men/m5-1.png'
+import OtherImg134 from '../assets/images/men/m5-2.png'
+import OtherImg135 from '../assets/images/men/m5-3.png'
+import Img45 from '../assets/images/men/m6.png'
+import OtherImg136 from '../assets/images/men/m6-1.png'
+import OtherImg137 from '../assets/images/men/m6-2.png'
+import OtherImg138 from '../assets/images/men/m6-3.png'
+import Img46 from '../assets/images/men/m7.png'
+import OtherImg139 from '../assets/images/men/m7-1.png'
+import OtherImg140 from '../assets/images/men/m7-2.png'
+import OtherImg141 from '../assets/images/men/m7-3.png'
+import Img47 from '../assets/images/men/m8.png'
+import OtherImg142 from '../assets/images/men/m8-1.png'
+import OtherImg143 from '../assets/images/men/m8-2.png'
+import OtherImg146 from '../assets/images/men/m8-3.png'
+import Img48 from '../assets/images/men/m9.png'
+import OtherImg147 from '../assets/images/men/m9-1.png'
+import OtherImg148 from '../assets/images/men/m9-2.png'
+import OtherImg149 from '../assets/images/men/m9-3.png'
+import Img49 from '../assets/images/men/m10.png'
+import OtherImg150 from '../assets/images/men/m10-1.png'
+import OtherImg151 from '../assets/images/men/m10-2.png'
+import OtherImg152 from '../assets/images/men/m10-3.png'
+import Img50 from '../assets/images/men/m11.png'
+import OtherImg153 from '../assets/images/men/m11-1.png'
+import OtherImg154 from '../assets/images/men/m11-2.png'
+import OtherImg155 from '../assets/images/men/m11-3.png'
+import Img51 from '../assets/images/men/m12.png'
+import OtherImg156 from '../assets/images/men/m12-1.png'
+import OtherImg157 from '../assets/images/men/m12-2.png'
+import OtherImg158 from '../assets/images/men/m12-3.png'
+import Img52 from '../assets/images/men/m13.png'
+import OtherImg159 from '../assets/images/men/m13-1.png'
+import OtherImg160 from '../assets/images/men/m13-2.png'
+import OtherImg161 from '../assets/images/men/m13-3.png'
+import Img53 from '../assets/images/men/m14.png'
+import OtherImg162 from '../assets/images/men/m14-1.png'
+import OtherImg163 from '../assets/images/men/m14-2.png'
+import OtherImg164 from '../assets/images/men/m14-3.png'
+import Img54 from '../assets/images/men/m15.png'
+import OtherImg165 from '../assets/images/men/m15-1.png'
+import OtherImg166 from '../assets/images/men/m15-2.png'
+import OtherImg167 from '../assets/images/men/m15-3.png'
+import Img55 from '../assets/images/men/m16.png'
+import OtherImg168 from '../assets/images/men/m16-1.png'
+import OtherImg169 from '../assets/images/men/m16-2.png'
+import OtherImg170 from '../assets/images/men/m16-3.png'
+import Img56 from '../assets/images/men/m17.png'
+import OtherImg171 from '../assets/images/men/m17-1.png'
+import OtherImg172 from '../assets/images/men/m17-2.png'
+import OtherImg173 from '../assets/images/men/m17-3.png'
+import Img57 from '../assets/images/men/m18.png'
+import OtherImg174 from '../assets/images/men/m18-1.png'
+import OtherImg175 from '../assets/images/men/m18-2.png'
+import OtherImg176 from '../assets/images/men/m18-3.png'
+import Img58 from '../assets/images/men/m19.png'
+import OtherImg177 from '../assets/images/men/m19-1.png'
+import OtherImg178 from '../assets/images/men/m19-2.png'
+import OtherImg179 from '../assets/images/men/m19-3.png'
+import Img59 from '../assets/images/men/m20.png'
+import OtherImg180 from '../assets/images/men/m20-1.png'
+import OtherImg181 from '../assets/images/men/m20-2.png'
+import OtherImg182 from '../assets/images/men/m20-3.png'
+import Img60 from '../assets/images/men/m21.png'
+import OtherImg183 from '../assets/images/men/m21-1.png'
+import OtherImg184 from '../assets/images/men/m21-2.png'
+import OtherImg185 from '../assets/images/men/m21-3.png'
+import Img61 from '../assets/images/men/m22.png'
+import OtherImg186 from '../assets/images/men/m22-1.png'
+import OtherImg187 from '../assets/images/men/m22-2.png'
+import OtherImg188 from '../assets/images/men/m22-3.png'
+import Img62 from '../assets/images/men/m23.png'
+import OtherImg189 from '../assets/images/men/m23-1.png'
+import OtherImg190 from '../assets/images/men/m23-2.png'
+import OtherImg191 from '../assets/images/men/m23-3.png'
+import Img63 from '../assets/images/men/m24.png'
+import OtherImg192 from '../assets/images/men/m24-1.png'
+import OtherImg193 from '../assets/images/men/m24-2.png'
+import OtherImg194 from '../assets/images/men/m24-3.png'
 
 
-
-
-
-
+// Women
+import Img65 from '../assets/images/women/w1.png'
+import OtherImg195 from '../assets/images/women/w1-1.png'
+import OtherImg196 from '../assets/images/women/w1-2.png'
+import OtherImg197 from '../assets/images/women/w1-3.png'
+import Img66 from '../assets/images/women/w2.png'
+import OtherImg198 from '../assets/images/women/w2-1.png'
+import OtherImg199 from '../assets/images/women/w2-2.png'
+import OtherImg200 from '../assets/images/women/w2-3.png'
+import Img67 from '../assets/images/women/w3.png'
+import OtherImg201 from '../assets/images/women/w3-1.png'
+import OtherImg202 from '../assets/images/women/w3-2.png'
+import OtherImg203 from '../assets/images/women/w3-3.png'
+import Img68 from '../assets/images/women/w4.png'
+import OtherImg204 from '../assets/images/women/w4-1.png'
+import OtherImg205 from '../assets/images/women/w4-2.png'
+import OtherImg206 from '../assets/images/women/w4-3.png'
+import Img69 from '../assets/images/women/w5.png'
+import OtherImg207 from '../assets/images/women/w5-1.png'
+import OtherImg208 from '../assets/images/women/w5-2.png'
+import OtherImg209 from '../assets/images/women/w5-3.png'
+import Img70 from '../assets/images/women/w6.png'
+import OtherImg210 from '../assets/images/women/w6-1.png'
+import OtherImg211 from '../assets/images/women/w6-2.png'
+import OtherImg212 from '../assets/images/women/w6-3.png'
+import Img71 from '../assets/images/women/w7.png'
+import OtherImg213 from '../assets/images/women/w7-1.png'
+import OtherImg214 from '../assets/images/women/w7-2.png'
+import OtherImg215 from '../assets/images/women/w7-3.png'
+import Img72 from '../assets/images/women/w8.png'
+import OtherImg216 from '../assets/images/women/w8-1.png'
+import OtherImg217 from '../assets/images/women/w8-2.png'
+import OtherImg218 from '../assets/images/women/w8-3.png'
+import Img73 from '../assets/images/women/w9.png'
+import OtherImg219 from '../assets/images/women/w9-1.png'
+import OtherImg220 from '../assets/images/women/w9-2.png'
+import OtherImg221 from '../assets/images/women/w9-3.png'
+import Img74 from '../assets/images/women/w10.png'
+import OtherImg222 from '../assets/images/women/w10-1.png'
+import OtherImg223 from '../assets/images/women/w10-2.png'
+import OtherImg224 from '../assets/images/women/w10-3.png'
+import Img75 from '../assets/images/women/w11.png'
+import OtherImg225 from '../assets/images/women/w11-1.png'
+import OtherImg226 from '../assets/images/women/w11-2.png'
+import OtherImg227 from '../assets/images/women/w11-3.png'
+import Img76 from '../assets/images/women/w12.png'
+import OtherImg228 from '../assets/images/women/w12-1.png'
+import OtherImg229 from '../assets/images/women/w12-2.png'
+import OtherImg230 from '../assets/images/women/w12-3.png'
+import Img77 from '../assets/images/women/w13.png'
+import OtherImg231 from '../assets/images/women/w13-1.png'
+import OtherImg232 from '../assets/images/women/w13-2.png'
+import OtherImg233 from '../assets/images/women/w13-3.png'
+import Img78 from '../assets/images/women/w14.png'
+import OtherImg234 from '../assets/images/women/w14-1.png'
+import OtherImg235 from '../assets/images/women/w14-2.png'
+import OtherImg236 from '../assets/images/women/w14-3.png'
+import Img79 from '../assets/images/women/w15.png'
+import OtherImg237 from '../assets/images/women/w15-1.png'
+import OtherImg238 from '../assets/images/women/w15-2.png'
+import OtherImg239 from '../assets/images/women/w15-3.png'
+import Img80 from '../assets/images/women/w16.png'
+import OtherImg240 from '../assets/images/women/w16-1.png'
+import OtherImg241 from '../assets/images/women/w16-2.png'
+import OtherImg242 from '../assets/images/women/w16-3.png'
+import Img81 from '../assets/images/women/w17.png'
+import OtherImg243 from '../assets/images/women/w17-1.png'
+import OtherImg244 from '../assets/images/women/w17-2.png'
+import OtherImg245 from '../assets/images/women/w17-3.png'
+import Img82 from '../assets/images/women/w18.png'
+import OtherImg246 from '../assets/images/women/w18-1.png'
+import OtherImg248 from '../assets/images/women/w18-2.png'
+import OtherImg249 from '../assets/images/women/w18-3.png'
+import Img83 from '../assets/images/women/w19.png'
+import OtherImg250 from '../assets/images/women/w19-1.png'
+import OtherImg251 from '../assets/images/women/w19-2.png'
+import OtherImg252 from '../assets/images/women/w19-3.png'
+import Img84 from '../assets/images/women/w20.png'
+import OtherImg253 from '../assets/images/women/w20-1.png'
+import OtherImg254 from '../assets/images/women/w20-2.png'
+import OtherImg255 from '../assets/images/women/w20-3.png'
+import Img85 from '../assets/images/women/w21.png'
+import OtherImg256 from '../assets/images/women/w21-1.png'
+import OtherImg257 from '../assets/images/women/w21-2.png'
+import OtherImg258 from '../assets/images/women/w21-3.png'
+import Img86 from '../assets/images/women/w22.png'
+import OtherImg259 from '../assets/images/women/w22-1.png'
+import OtherImg260 from '../assets/images/women/w22-2.png'
+import OtherImg261 from '../assets/images/women/w22-3.png'
+import Img87 from '../assets/images/women/w23.png'
+import OtherImg262 from '../assets/images/women/w23-1.png'
+import OtherImg263 from '../assets/images/women/w23-2.png'
+import OtherImg264 from '../assets/images/women/w23-3.png'
+import Img88 from '../assets/images/women/w24.png'
+import OtherImg265 from '../assets/images/women/w24-1.png'
+import OtherImg266 from '../assets/images/women/w24-2.png'
+import OtherImg267 from '../assets/images/women/w24-3.png'
 
 
 export const discountItems = [
@@ -647,22 +837,7 @@ export const discountItems = [
         size: ["S","M","L" ],
     },
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// new items
 export const newItems = [
     {
         id:9,
@@ -809,7 +984,7 @@ export const newItems = [
         ]
     },
 ]
-
+// cap items
 export const CapItems = [
     {
         id:1,
@@ -977,4 +1152,875 @@ export const CapItems = [
 
     },
 ]
- 
+//  Men's collection
+export const men =[
+    {
+        id:41,
+        img: Img64,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg121, OtherImg122, OtherImg123],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:42,
+        img: Img41,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg124, OtherImg125, OtherImg126],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:43,
+        img: Img42,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg127, OtherImg128, OtherImg129],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:44,
+        img: Img43,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg130, OtherImg131, OtherImg132],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:45,
+        img: Img44,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg133, OtherImg134, OtherImg135],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:46,
+        img: Img45,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg136, OtherImg137, OtherImg138],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:47,
+        img: Img46,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg139, OtherImg140, OtherImg141],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:48,
+        img: Img47,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg142, OtherImg143, OtherImg146],
+        // mistake- skipped 143-146 numbers
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:49,
+        img: Img48,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg147, OtherImg148, OtherImg149],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:50,
+        img: Img49,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg150, OtherImg151, OtherImg152],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:51,
+        img: Img50,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg153, OtherImg154, OtherImg155],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:52,
+        img: Img51,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg156, OtherImg157, OtherImg158],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:53,
+        img: Img52,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg159, OtherImg160, OtherImg161],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:54,
+        img: Img53,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg162, OtherImg163, OtherImg164],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:55,
+        img: Img54,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg165, OtherImg166, OtherImg167],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:56,
+        img: Img55,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg168, OtherImg169, OtherImg170],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:57,
+        img: Img56,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg171, OtherImg172, OtherImg173],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:58,
+        img: Img57,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg174, OtherImg175, OtherImg176],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:59,
+        img: Img58,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg177, OtherImg178, OtherImg179],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:60,
+        img: Img59,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg180, OtherImg181, OtherImg182],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:61,
+        img: Img60,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg183, OtherImg184, OtherImg185],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:62,
+        img: Img61,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg186, OtherImg187, OtherImg188],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:63,
+        img: Img62,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg189, OtherImg190, OtherImg191],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:64,
+        img: Img63,
+        name :"Twill resort shirt",
+        price: "499.00",
+        otherImgs: [OtherImg192, OtherImg193, OtherImg194],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+]
+export const women =[
+    {
+        id:65,
+        img: Img65,
+        name :"Smoked maxi dress",
+        price: "499.00",
+        otherImgs: [OtherImg195, OtherImg196, OtherImg197],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:66,
+        img: Img66,
+        name :"Strap top",
+        price: "499.00",
+        otherImgs: [OtherImg198, OtherImg199, OtherImg200],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:67,
+        img: Img67,
+        name :"Vest T-shirt",
+        price: "499.00",
+        otherImgs: [OtherImg201, OtherImg202, OtherImg203],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:68,
+        img: Img68,
+        name :"Printed cotton T-shirt",
+        price: "499.00",
+        otherImgs: [OtherImg204, OtherImg205, OtherImg206],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:69,
+        img: Img69,
+        name :"Mini dress",
+        price: "499.00",
+        otherImgs: [OtherImg207, OtherImg208, OtherImg209],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:70,
+        img: Img70,
+        name :"Cotton vest top",
+        price: "499.00",
+        otherImgs: [OtherImg210, OtherImg211, OtherImg212],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:71,
+        img: Img71,
+        name :"Printed crop top",
+        price: "499.00",
+        otherImgs: [OtherImg213, OtherImg214, OtherImg215],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:72,
+        img: Img72,
+        name :"Linen mini dress",
+        price: "499.00",
+        otherImgs: [OtherImg216, OtherImg217, OtherImg218],
+        // mistake- skipped 143-146 numbers
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:73,
+        img: Img73,
+        name :"Printed cotton T-shirt",
+        price: "499.00",
+        otherImgs: [OtherImg219, OtherImg220, OtherImg221],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:74,
+        img: Img74,
+        name :"Printed cotton T-shirt",
+        price: "499.00",
+        otherImgs: [OtherImg222, OtherImg223, OtherImg224],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:75,
+        img: Img75,
+        name :"Square neck blouse",
+        price: "499.00",
+        otherImgs: [OtherImg225, OtherImg226, OtherImg227],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:76,
+        img: Img76,
+        name :"Cotton wide trousers",
+        price: "499.00",
+        otherImgs: [OtherImg228, OtherImg229, OtherImg230],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:77,
+        img: Img77,
+        name :"Square neck top",
+        price: "499.00",
+        otherImgs: [OtherImg231, OtherImg232, OtherImg233],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:78,
+        img: Img78,
+        name :"Floral dress",
+        price: "499.00",
+        otherImgs: [OtherImg234, OtherImg235, OtherImg236],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:79,
+        img: Img79,
+        name :"Wide cotton trousers",
+        price: "499.00",
+        otherImgs: [OtherImg237, OtherImg238, OtherImg239],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:80,
+        img: Img80,
+        name :"Cotton vest top",
+        price: "499.00",
+        otherImgs: [OtherImg240, OtherImg241, OtherImg242],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:81,
+        img: Img81,
+        name :"Wide leg trousers",
+        price: "499.00",
+        otherImgs: [OtherImg243, OtherImg244, OtherImg245],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:82,
+        img: Img82,
+        name :"Mini dress",
+        price: "499.00",
+        otherImgs: [OtherImg246, OtherImg248, OtherImg249],
+        // missed one number (247)
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:83,
+        img: Img83,
+        name :"Cotton vest top",
+        price: "499.00",
+        otherImgs: [OtherImg250, OtherImg251, OtherImg252],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:84,
+        img: Img84,
+        name :"Printed cotton T-shirt",
+        price: "499.00",
+        otherImgs: [OtherImg253, OtherImg254, OtherImg255],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:85,
+        img: Img85,
+        name :"Sweater",
+        price: "499.00",
+        otherImgs: [OtherImg256, OtherImg257, OtherImg258],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:86,
+        img: Img86,
+        name :"Jean cloth blouse",
+        price: "499.00",
+        otherImgs: [OtherImg259, OtherImg260, OtherImg261],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:87,
+        img: Img87,
+        name :"Ribbed sweatshirt",
+        price: "499.00",
+        otherImgs: [OtherImg262, OtherImg263, OtherImg264],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:88,
+        img: Img88,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg265, OtherImg266, OtherImg267],
+        description: `Short-sleeved shirt in soft cotton twill with a resort collar, French front, yoke at the back, open chest pockets and a straight-cut hem with a slit at each side. Regular fit for comfortable wear and a classic silhouette.`,
+        productDetails:[
+            "1 N",
+            "Shirt",
+            "Black",
+            "S, M, L,",
+            "Clothing",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+]

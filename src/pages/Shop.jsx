@@ -13,15 +13,21 @@ export const Shop = () => {
             <div className='categories-list'>
               <div>
                 <GenderMale size={36} />
+                <Link to="/men" className='link' onClick={() => window.scrollTo(0, 0)}>
                 <h3>Men's Wear</h3>
+                </Link>
               </div>
               <div>
                 <GenderFemale size={36} />
+                <Link to="/women" className='link' onClick={() => window.scrollTo(0, 0)}>
                 <h3>Women's Wear</h3>
+                </Link>
               </div>
               <div>
                 <Sunglasses size={36} />
+                <Link to="/accessories" className='link' onClick={() => window.scrollTo(0, 0)}>
                 <h3>Accessories</h3>
+                </Link>
               </div>
             </div>
           </div>

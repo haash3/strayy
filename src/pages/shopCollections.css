@@ -1,0 +1,53 @@
+.sc-container{
+    padding-top: 8rem;
+    min-height: 100vh;
+}
+.sc-head h2{
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+.sc-head h2 span{
+    color: rgb(172, 172, 172);
+}
+.sc-items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem 0rem 6rem
+}
+.sc-item img{
+    width: 100%;
+}
+.sc-item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+    padding: 0rem 0rem 1rem;
+    margin: 1rem 0rem;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.sc-item:hover{
+    outline: 1px solid rgb(101, 101, 101);
+    transform: scale(1.05);
+}
+.sc-item h4{
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 0rem 0.3rem;
+    font-size: 1.1rem;
+}
+.sc-item p{
+    font-family: "Roboto Condensed";
+    font-size: 1.1rem;
+    padding: 0rem 0.3rem;
+    font-weight: 600;
+}
+.sc-item button{
+    font-family: "Roboto Condensed";
+    padding: 0rem 0.3rem;
+    font-size: 1.1rem;
+}

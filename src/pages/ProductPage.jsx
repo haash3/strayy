@@ -1,10 +1,10 @@
 import React from 'react'
 import { useContext, useState } from "react";
-import { CapItems } from '../components/AllData';
+import { CapItems, men, women } from '../components/AllData';
 import { newItems, discountItems } from '../components/AllData';
 import { useParams } from 'react-router-dom';
 import './Productpage.css';
-import { Heart, Building, Info, CaretCircleDown } from '@phosphor-icons/react';
+import { Heart, Building, Info} from '@phosphor-icons/react';
 import { ShopContext } from '../context/ShopContextProvider';
 
 
@@ -13,6 +13,8 @@ export const ProductPage = () => {
     const thisProduct = CapItems.find(item => item.id === parseInt(id)) 
     || newItems.find(item => item.id === parseInt(id))
     || discountItems.find(item => item.id === parseInt(id))
+    || men.find(item => item.id === parseInt(id))
+    || women.find(item => item.id === parseInt(id))
     const [image, setImage] = useState(thisProduct.img);
     const changeImage = (e) => {
         setImage(e.target.src);
@@ -66,7 +68,7 @@ export const ProductPage = () => {
                         <button id='cart-btn' onClick={() => addToCart(thisProduct.id)}>
                             Add To Cart
                         </button>
-                        <button id='wishlist-btn'><Heart size={26} /></button>
+                        <button id='wishlist-btn'><Heart size={24} /></button>
                     </div>
 
                     <div className='details-part'>
