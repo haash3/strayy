@@ -1,12 +1,14 @@
 import { createContext,  useState } from "react";
-import { CapItems } from "../components/AllData";
+import { CapItems, acItems, men, women, newItems, discountItems } from "../components/AllData";
 
 
 export const ShopContext = createContext(null);
+const allItems = [...CapItems, ...acItems, ...men, ...women, ...newItems, ...discountItems];
+
 
 const getDefaultCart = () => {
   let cart = {};
-  for (let i = 1; i < CapItems.length + 1; i++) {
+  for (let i = 1; i < allItems.length + 1; i++) {
     cart[i] = 0;
   }
   return cart;

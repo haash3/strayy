@@ -1,0 +1,92 @@
+.cart-container{
+    padding-top: 8rem;
+    min-height: 100vh;
+    
+}
+.cart-container h2{
+    font-family: "Poppins";
+    font-size: 2.25rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.cart-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.cart-head-text{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15rem;
+    font-family: "Roboto Condensed";
+    font-size: 0.9rem;
+}
+.cart-sections{
+   display: flex;
+   justify-content: center;
+   width: 50rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CartItems */
+.cart-item{
+    padding: 2rem 2rem;
+    display: flex;
+    gap: 3rem;
+    align-items: start;
+    background-color: rgba(233, 233, 233, 0.767);
+    margin: 1rem 0rem;
+    flex: 1;
+}
+.cart-item img{
+    width: 6rem;
+}
+.cart-item-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.3rem;
+}
+.cart-item-details h3{
+    font-family: "Roboto Condensed";
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.cart-item-details h4{
+    font-size: 1.3rem;
+    font-family: "Dm sans";
+}
+.cart-item-details p{
+    font-family: "Poppins";
+    font-size: 0.8rem;
+}
+.cart-btns{
+    display: flex;
+    gap: 2rem;
+}
+.cart-btns button{
+    background-color: rgb(38, 37, 37);
+    color: rgb(234, 234, 234);
+    padding: 1rem 1.4rem;
+    margin: 1rem 0rem;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
