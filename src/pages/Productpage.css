@@ -68,9 +68,14 @@
     align-items: center;
     font-family: "Roboto Condensed";
 }
-.size-part p{
+.size-part button{
     border: 1px solid black;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.size-part button:focus{
+    background-color: rgb(27, 26, 26);
+    color: white;
 }
 .button-part{
     display: flex;
@@ -84,7 +89,16 @@
     font-family: "Poppins";
     font-weight: 500;
     width: 25rem;
-    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+#cart-btn:hover{
+    background-color: rgb(39, 39, 39);
+    color: white;
 }
 .button-part #wishlist-btn{
     background-color: rgb(231, 230, 230);
