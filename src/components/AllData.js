@@ -400,7 +400,337 @@ import OtherImg265 from '../assets/images/women/w24-1.png'
 import OtherImg266 from '../assets/images/women/w24-2.png'
 import OtherImg267 from '../assets/images/women/w24-3.png'
 
+// Accessories
+import Img89 from '../assets/images/accessories/a1.png'
+import OtherImg268 from '../assets/images/accessories/a1-1.png'
+import OtherImg269 from '../assets/images/accessories/a1-2.png'
+import OtherImg270 from '../assets/images/accessories/a1-3.png'
+import Img90 from '../assets/images/accessories/a2.png'
+import OtherImg271 from '../assets/images/accessories/a2-1.png'
+import OtherImg272 from '../assets/images/accessories/a2-2.png'
+import OtherImg273 from '../assets/images/accessories/a2-3.png'
+import Img91 from '../assets/images/accessories/a3.png'
+import OtherImg274 from '../assets/images/accessories/a3-1.png'
+import OtherImg275 from '../assets/images/accessories/a3-2.png'
+import OtherImg276 from '../assets/images/accessories/a3-3.png'
+import Img92 from '../assets/images/accessories/a4.png'
+import OtherImg277 from '../assets/images/accessories/a4-1.png'
+import OtherImg278 from '../assets/images/accessories/a4-2.png'
+import OtherImg279 from '../assets/images/accessories/a4-3.png'
+import Img93 from '../assets/images/accessories/a5.png'
+import OtherImg280 from '../assets/images/accessories/a5-1.png'
+import OtherImg281 from '../assets/images/accessories/a5-2.png'
+import OtherImg282 from '../assets/images/accessories/a5-3.png'
+import Img94 from '../assets/images/accessories/a6.png'
+import OtherImg283 from '../assets/images/accessories/a6-1.png'
+import OtherImg284 from '../assets/images/accessories/a6-2.png'
+import OtherImg285 from '../assets/images/accessories/a6-3.png'
+import Img95 from '../assets/images/accessories/a7.png'
+import OtherImg286 from '../assets/images/accessories/a7-1.png'
+import OtherImg287 from '../assets/images/accessories/a7-2.png'
+import OtherImg288 from '../assets/images/accessories/a7-3.png'
+import Img96 from '../assets/images/accessories/a8.png'
+import OtherImg289 from '../assets/images/accessories/a8-1.png'
+import OtherImg290 from '../assets/images/accessories/a8-2.png'
+import OtherImg291 from '../assets/images/accessories/a8-3.png'
+import Img97 from '../assets/images/accessories/a9.png'
+import OtherImg292 from '../assets/images/accessories/a9-1.png'
+import OtherImg293 from '../assets/images/accessories/a9-2.png'
+import OtherImg294 from '../assets/images/accessories/a9-3.png'
+import Img98 from '../assets/images/accessories/a10.png'
+import OtherImg295 from '../assets/images/accessories/a10-1.png'
+import OtherImg296 from '../assets/images/accessories/a10-2.png'
+import OtherImg297 from '../assets/images/accessories/a10-3.png'
+import Img99 from '../assets/images/accessories/a11.png'
+import OtherImg298 from '../assets/images/accessories/a11-1.png'
+import OtherImg299 from '../assets/images/accessories/a11-2.png'
+import OtherImg300 from '../assets/images/accessories/a11-3.png'
+import Img100 from '../assets/images/accessories/a12.png'
+import OtherImg301 from '../assets/images/accessories/a12-1.png'
+import OtherImg302 from '../assets/images/accessories/a12-2.png'
+import OtherImg303 from '../assets/images/accessories/a12-3.png'
+import Img101 from '../assets/images/accessories/a13.png'
+import OtherImg304 from '../assets/images/accessories/a13-1.png'
+import OtherImg305 from '../assets/images/accessories/a13-2.png'
+import OtherImg306 from '../assets/images/accessories/a13-3.png'
+// accessories
+export const acItems = [
+    {
+        id:89,
+        img: Img89,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg268, OtherImg269, OtherImg270],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:90,
+        img: Img90,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg271, OtherImg272, OtherImg272],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id: 91,
+        img: Img91,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg273, OtherImg274, OtherImg275],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:92,
+        img: Img92,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg276, OtherImg277, OtherImg278],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:93,
+        img: Img93,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg279, OtherImg280, OtherImg281],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:94,
+        img: Img94,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg282, OtherImg283, OtherImg284],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:95,
+        img: Img95,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg285, OtherImg286, OtherImg287],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:96,
+        img: Img96,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg288, OtherImg289, OtherImg290],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:97,
+        img: Img97,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg291, OtherImg292, OtherImg293],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:98,
+        img: Img98,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg294, OtherImg295, OtherImg296],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:99,
+        img: Img99,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg297, OtherImg298, OtherImg299],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:100,
+        img: Img101,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg300, OtherImg301, OtherImg302],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+    {
+        id:101,
+        img: Img101,
+        name :"Tie detail dress",
+        price: "499.00",
+        otherImgs: [OtherImg303, OtherImg304, OtherImg305],
+        description: `Shopper in braided paper straw with two sets of handles at the top in 
+                      different lengths so that you can carry it either on your shoulder or in your hand. 
+                      Zipped inner compartment. 
+                      Taffeta lining. Depth 17 cm. Height 34 cm. Width 34 cm.`,
+        productDetails:[
+            "1 N",
+            "Bag",
+            "Black",
+            "S, M, L,",
+            "Accessories",
+            "N/A",
+            "DIVIDED"
+            ],
+        size: ["S","M","L" ],
+    },
+]
 
+// Discount Items for shop page
 export const discountItems = [
     {
         id:17,

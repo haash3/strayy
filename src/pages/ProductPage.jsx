@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext, useState } from "react";
-import { CapItems, men, women } from '../components/AllData';
+import { CapItems, acItems, men, women } from '../components/AllData';
 import { newItems, discountItems } from '../components/AllData';
 import { useParams } from 'react-router-dom';
 import './Productpage.css';
@@ -15,6 +15,7 @@ export const ProductPage = () => {
     || discountItems.find(item => item.id === parseInt(id))
     || men.find(item => item.id === parseInt(id))
     || women.find(item => item.id === parseInt(id))
+    || acItems.find(item => item.id === parseInt(id))
     const [image, setImage] = useState(thisProduct.img);
     const changeImage = (e) => {
         setImage(e.target.src);
