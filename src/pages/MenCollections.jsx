@@ -12,16 +12,17 @@ export const MenCollections = () => {
         </div>
         <div className='sc-items-container'>
               {men.map((item) => (
+                <Link to={`/shop/product/${item.id}`}
+                className='link' onClick={() => window.scrollTo(0, 0)}>
                 <div key={item.id} className='sc-item'>
                   <img src={item.img} />
                   <h4>{item.name}</h4>
                   <p>Rs.{item.price}</p>
-                  <Link to={`/shop/product/${item.id}`}
-                  className='link' onClick={() => window.scrollTo(0, 0)}>
                   <button>View Product</button>
-                  </Link>
 
                 </div>
+                </Link>
+
               ))}
             </div>
       </div>

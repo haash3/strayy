@@ -26,7 +26,7 @@
     align-items: start;
     gap: 0.5rem;
     padding: 0rem 0rem 1rem;
-    margin: 1rem 0rem;
+    margin: 1rem 0rem 2rem;
     outline: none;
     transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
 }

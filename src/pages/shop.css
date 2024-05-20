@@ -52,22 +52,30 @@
     padding-bottom: 5rem;
 }
 .offer-item{
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 0.5rem;
-    padding: 0.5rem 0.2rem 0.3rem;
+    padding: 0rem 0rem 1.5rem;
+
     outline: none;
     transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+.offer-item:hover{
+    outline: 1px solid rgb(65, 65, 65);
+    scale: 1.03;
 }
 .offer-item img{
     width: 100%;
 }
 .offer-item p, button {
     font-family: "Roboto Condensed";
+    padding: 0rem 0.6rem;
 }
 .offer-item h4 {
     font-family: "Poppins";
     font-weight: 600;
+    padding: 0rem 0.6rem;
+
 }

@@ -7,6 +7,8 @@ export const Slider = () => {
     <>
       {newItems.map((item) => {
         return (
+          <Link to={`/shop/product/${item.id}`}
+               className="link" onClick={() => window.scrollTo(0, 0)} >
           <div className="item" key={item.name}>
             <div className="item-header">
               <img src={item.img} alt="product" />
@@ -14,12 +16,12 @@ export const Slider = () => {
             <div className="item-description">
               <h2>₹{item.price}</h2>
               <p>{item.name}</p>
-              <Link to={`/shop/product/${item.id}`}
-               className="link" onClick={() => window.scrollTo(0, 0)} >
+              
               <button>View Product</button>
-              </Link>
             </div>
           </div>
+              </Link>
+
         );
       })}
     </>

@@ -63,9 +63,9 @@ import OtherImg10 from '../assets/images/CapCollection/cap4-1.png'
 import OtherImg11 from '../assets/images/CapCollection/cap4-2.png'
 import OtherImg12 from '../assets/images/CapCollection/cap4-3.png'
 
-import Img13 from '../assets/images/CapCollection/cap5.png'
-import OtherImg13 from '../assets/images/CapCollection/cap5-1.png'
-import OtherImg14 from '../assets/images/CapCollection/cap5-2.png'
+import Img13 from '../assets/images/CapCollection/cap5-2.png'
+import OtherImg13 from '../assets/images/CapCollection/cap5.png'
+import OtherImg14 from '../assets/images/CapCollection/cap5-1.png'
 import OtherImg15 from '../assets/images/CapCollection/cap5-3.png'
 
 import Img14 from '../assets/images/CapCollection/cap6.png'
@@ -1361,7 +1361,8 @@ export const CapItems = [
         img:Img12,
         otherImgs: [OtherImg4, OtherImg5, OtherImg6],
         name:"Cotton twill cap",
-        price:["S","M","L" ],
+        price:`499.00`,
+        size:["S","M","L" ],
         description:`Cap in a cotton weave with an adjustable tab and metal fastener at the back and a sweatband.`,
         productDetails:[
             "1 N",

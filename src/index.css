@@ -18,9 +18,11 @@
   }
   .link{
     all: unset;
+    cursor: pointer;
   }
   button{
     all: unset;
+    cursor: pointer;
   }
 
  

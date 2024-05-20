@@ -15,11 +15,13 @@ export const Nav = () => {
       <div className="container nav">
         <Link to="/" className="link"><Logo /></Link>
 
-          <div className="search-bar">
+          {/* search bar feature */}
+          
+          {/* <div className="search-bar">
             <SearchButton />  
             <MagnifyingGlass size={20}/>
             
-          </div>
+          </div> */}
 
 
         <div className="nav-links">

@@ -15,15 +15,16 @@ export const CapCollections = () => {
 
         <div className="cap-collections-container">
           {CapItems.map((item) => (
+            <Link to={`/shop/product/${item.id}`} 
+            className="link" onClick={() => window.scrollTo(0, 0)} >
                <div key={item.id} className="cap-collections-item">
               <img src={item.img} />
               <h2>{item.name}</h2>
               <p>₹{item.price}</p>
-              <Link to={`/shop/product/${item.id}`} 
-              className="link" onClick={() => window.scrollTo(0, 0)} >
               <button>View Product</button>
-              </Link>
             </div>
+            </Link>
+
             
          
           ))}
