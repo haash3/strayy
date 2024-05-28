@@ -20,7 +20,7 @@ export const Collections = () => {
                             <p>Starting from ₹499</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/men" className='link' onClick={() => window.scrollTo(0, 0)}>
+                            <Link to="shop/categories/men" className='link' onClick={() => window.scrollTo(0, 0)}>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 
@@ -33,7 +33,7 @@ export const Collections = () => {
                             <p>Starting from ₹499</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/women" className='link' onClick={() => window.scrollTo(0, 0)}>
+                            <Link to="/shop/categories/women" className='link' onClick={() => window.scrollTo(0, 0)}>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 
@@ -46,7 +46,7 @@ export const Collections = () => {
                             <p>Explore Now</p>
                         </div>
                         <div className='collections-btn-side'>
-                            <Link to="/accessories" className='link' onClick={() => window.scrollTo(0, 0)}>
+                            <Link to="shop/categories/accessories" className='link' onClick={() => window.scrollTo(0, 0)}>
                                 <p>Shop Now <ArrowRight size={18} /></p>
                             </Link>
 
