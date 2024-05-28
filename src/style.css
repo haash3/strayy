@@ -38,35 +38,22 @@
 }
 
 
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+::-webkit-scrollbar-track {
+  background: #fdffff;
+}
 
+::-webkit-scrollbar-thumb {
+  background: #1e1f1f;
+  /* border-radius: 50px; */
+}
 
-
-/* New Arrivals Section */
-
-
-
-
-
-
-
-
-
-
-
-/* Cap Collections */
-
-
-
-/* about-us */
-
-/* delivery-features section */
-
-
-/* About US page */
-
-
-
+::-webkit-scrollbar-thumb:hover {
+  background: #292b2b;
+}
 
 
 

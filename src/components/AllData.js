@@ -456,6 +456,7 @@ import OtherImg306 from '../assets/images/accessories/a13-3.png'
 // accessories
 export const acItems = [
     {
+        category:"accessories",
         id:89,
         img: Img89,
         name :"Tie detail dress",
@@ -1486,6 +1487,7 @@ export const CapItems = [
 //  Men's collection
 export const men =[
     {
+        category: "men",
         id:41,
         img: Img64,
         name :"Twill resort shirt",
@@ -1921,6 +1923,7 @@ export const men =[
 ]
 export const women =[
     {
+        category: "women",
         id:65,
         img: Img65,
         name :"Smoked maxi dress",

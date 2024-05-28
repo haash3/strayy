@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import './app-scrollbar.css'
 import './index.css'
 import { Nav } from './components/Nav';
 import {Home} from './pages/Home'
@@ -10,9 +9,7 @@ import { Copyright } from "./components/Copyright";
 import { AboutUs } from "./pages/AboutUs";
 import { ProductPage } from "./pages/ProductPage";
 import { ShopContextProvider } from "./context/ShopContextProvider";
-import { MenCollections } from "./pages/MenCollections";
-import { WomenCollections } from "./pages/WomenCollections";
-import { Accessories } from "./pages/Accessories";
+import { ShopCategories } from "./pages/ShopCategories";
 
 
 // Main-code
@@ -27,9 +24,7 @@ function App() {
             <Route path="/shop"element={<Shop />} />
             <Route path="/cart"element={<Cart />}/>
             <Route path="/about"element={<AboutUs />}/>
-            <Route path="/men"element={<MenCollections />}/>
-            <Route path="/women"element={<WomenCollections />}/>
-            <Route path="/accessories"element={<Accessories />}/>
+            <Route path="shop/categories/:category" element={<ShopCategories />} />
             <Route path="/shop/product/:id" element={<ProductPage />} />
         </Routes>
         <Footer />
