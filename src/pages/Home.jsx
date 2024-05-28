@@ -1,7 +1,6 @@
 import React from 'react'
 import {Hero} from '../categories/home/Hero'
-import {Collections} from '../categories/home/Collections'
-// import { NewsLetter } from '../categories/home/NewsLetter'
+import {CategoriesMini} from '../categories/home/CategoriesMini'
 import { AboutUsSection } from '../categories/home/AboutUsSection'
 import { CapCollections } from '../categories/home/CapCollections'
 import { NewArrivals } from '../categories/home/NewArrivals'
@@ -16,7 +15,7 @@ export const Home = () => {
     text="Starting at $499"
     img={hero}
     />
-    <Collections />
+    <CategoriesMini />
     <CapCollections />
     <NewArrivals />
     <AboutUsSection />
